@@ -1,0 +1,20 @@
+-------------------------Exception-------------------------
+2024-04-17_12_31_03 : NullReferenceException: Object reference not set to an instance of an object
+-----------------------------------------------------
+
+-------------------------Exception-------------------------
+2024-04-17_12_31_03 : NullReferenceException: Object reference not set to an instance of an object
+-----------------------------------------------------
+
+-------------------------Warning-------------------------
+2024-04-17_12_31_04 : A Canvas named "Canvas_Loading" with a render mode of ScreenSpaceOverlay is being used while VR is also enabled. This Canvas will continue to incur a rendering cost, but will not be visible while in VR. Is this intentional?
+-----------------------------------------------------
+
+-------------------------Exception-------------------------
+2024-04-17_12_31_05 : NullReferenceException: Object reference not set to an instance of an object
+-----------------------------------------------------
+
+-------------------------Warning-------------------------
+2024-04-17_12_31_05 : CurvedUIRaycaster requires Canvas to have a world camera reference to process events!
+-----------------------------------------------------
+
