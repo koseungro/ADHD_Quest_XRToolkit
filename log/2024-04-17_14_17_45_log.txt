@@ -1,0 +1,140 @@
+-------------------------Log-------------------------
+2024-04-17_14_17_45 : <color=yellow>[SceneMain]</color> 씬을 로드합니다.
+-----------------------------------------------------
+
+-------------------------Log-------------------------
+2024-04-17_14_17_45 : just Show LoadingText
+-----------------------------------------------------
+
+-------------------------Log-------------------------
+2024-04-17_14_17_51 : <color=yellow> 씬 로드 : True</color>
+-----------------------------------------------------
+
+-------------------------Warning-------------------------
+2024-04-17_14_17_51 : The referenced script on this Behaviour (Game Object '') is missing!
+-----------------------------------------------------
+
+-------------------------Warning-------------------------
+2024-04-17_14_17_51 : The referenced script on this Behaviour (Game Object '') is missing!
+-----------------------------------------------------
+
+-------------------------Warning-------------------------
+2024-04-17_14_17_51 : The referenced script on this Behaviour (Game Object '') is missing!
+-----------------------------------------------------
+
+-------------------------Warning-------------------------
+2024-04-17_14_17_51 : The referenced script on this Behaviour (Game Object '') is missing!
+-----------------------------------------------------
+
+-------------------------Warning-------------------------
+2024-04-17_14_17_51 : The referenced script on this Behaviour (Game Object '') is missing!
+-----------------------------------------------------
+
+-------------------------Warning-------------------------
+2024-04-17_14_17_51 : The referenced script on this Behaviour (Game Object 'OVRCameraRig') is missing!
+-----------------------------------------------------
+
+-------------------------Warning-------------------------
+2024-04-17_14_17_51 : The referenced script on this Behaviour (Game Object 'OVRCameraRig') is missing!
+-----------------------------------------------------
+
+-------------------------Warning-------------------------
+2024-04-17_14_17_51 : The referenced script on this Behaviour (Game Object 'OVRCameraRig') is missing!
+-----------------------------------------------------
+
+-------------------------Warning-------------------------
+2024-04-17_14_17_51 : The referenced script on this Behaviour (Game Object 'TrackedRemote') is missing!
+-----------------------------------------------------
+
+-------------------------Warning-------------------------
+2024-04-17_14_17_51 : The referenced script on this Behaviour (Game Object 'TrackedRemote') is missing!
+-----------------------------------------------------
+
+-------------------------Log-------------------------
+2024-04-17_14_17_51 : Start
+-----------------------------------------------------
+
+-------------------------Log-------------------------
+2024-04-17_14_17_51 : Check
+-----------------------------------------------------
+
+-------------------------Log-------------------------
+2024-04-17_14_17_51 : SetFocusCurvedMeshColliderRoutine
+-----------------------------------------------------
+
+-------------------------Log-------------------------
+2024-04-17_14_17_51 : <color=yellow> 2024.04.16 주석 처리</color>
+-----------------------------------------------------
+
+-------------------------Log-------------------------
+2024-04-17_14_17_51 : <color=yellow> 2024.04.16 주석 처리</color>
+-----------------------------------------------------
+
+-------------------------Log-------------------------
+2024-04-17_14_17_51 : SetRotateCompass
+-----------------------------------------------------
+
+-------------------------Error-------------------------
+2024-04-17_14_17_51 : UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+-SerializedObject target has been destroyed.
+-----------------------------------------------------
+
+-------------------------Error-------------------------
+2024-04-17_14_17_51 : UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+-SerializedObject target has been destroyed.
+-----------------------------------------------------
+
+-------------------------Error-------------------------
+2024-04-17_14_17_51 : UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+-SerializedObject target has been destroyed.
+-----------------------------------------------------
+
+-------------------------Error-------------------------
+2024-04-17_14_17_51 : UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+-SerializedObject target has been destroyed.
+-----------------------------------------------------
+
+-------------------------Error-------------------------
+2024-04-17_14_17_51 : UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+-SerializedObject target has been destroyed.
+-----------------------------------------------------
+
+-------------------------Error-------------------------
+2024-04-17_14_17_51 : UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+-SerializedObject target has been destroyed.
+-----------------------------------------------------
+
+-------------------------Error-------------------------
+2024-04-17_14_17_51 : UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+-SerializedObject target has been destroyed.
+-----------------------------------------------------
+
+-------------------------Error-------------------------
+2024-04-17_14_17_51 : UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+-SerializedObject target has been destroyed.
+-----------------------------------------------------
+
+-------------------------Error-------------------------
+2024-04-17_14_17_51 : UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+-SerializedObject target has been destroyed.
+-----------------------------------------------------
+
+-------------------------Error-------------------------
+2024-04-17_14_17_51 : UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+-SerializedObject target has been destroyed.
+-----------------------------------------------------
+
+-------------------------Error-------------------------
+2024-04-17_14_17_51 : UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+-SerializedObject target has been destroyed.
+-----------------------------------------------------
+
+-------------------------Error-------------------------
+2024-04-17_14_17_51 : UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+-SerializedObject target has been destroyed.
+-----------------------------------------------------
+
+-------------------------Log-------------------------
+2024-04-17_14_17_51 : <color=red>[CurvedSettingRoutine] 주석 처리(2024.04.03)</color>
+-----------------------------------------------------
+

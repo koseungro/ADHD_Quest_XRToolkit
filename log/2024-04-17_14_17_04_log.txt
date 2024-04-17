@@ -1,0 +1,17 @@
+-------------------------Log-------------------------
+2024-04-17_14_17_04 : <color=yellow>[SceneMain]</color> 씬을 로드합니다.
+-----------------------------------------------------
+
+-------------------------Error-------------------------
+2024-04-17_14_17_04 : UnityEngine.SceneManagement.SceneManager:LoadSceneAsync (string)
+SceneLoader:LoadScene (string) (at Assets/Scripts/Scene/SceneLoader.cs:230)
+SceneLoader:StartMainScene () (at Assets/Scripts/Scene/SceneLoader.cs:49)
+Main:Start () (at Assets/Scripts/Common/Main.cs:166)
+-Scene 'SceneMain' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
+-----------------------------------------------------
+
+-------------------------Exception-------------------------
+2024-04-17_14_17_04 : NullReferenceException: Object reference not set to an instance of an object
+-----------------------------------------------------
+

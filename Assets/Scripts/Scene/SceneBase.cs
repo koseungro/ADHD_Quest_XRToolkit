@@ -6,6 +6,8 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
+using UnityEngine.XR;
+using Unity.XR.CoreUtils;
 
 public class SceneBase : MonoBehaviour
 {
@@ -1704,19 +1706,17 @@ public class SceneBase : MonoBehaviour
     /// </summary>
     protected void SetRotateCompass()
     {
-        Debug.Log("<color=yellow> 2024.04.16 주석 처리</color>");
-
         Debug.Log("SetRotateCompass");
         rotateCompass = RotateCompass.Inst;
-        //Transform parent = FindObjectOfType<OVRCameraRig>().transform;
-        //Transform position = parent.Find("TrackingSpace/CenterEyeAnchor").transform;
-        //if (rotateCompass != null)
-        //{
-        //    rotateCompass.transform.SetParent(position);
-        //    rotateCompass.transform.localPosition = Vector3.zero;
-        //    rotateCompass.transform.localRotation = Quaternion.identity;
-        //    rotateCompass.transform.localScale = Vector3.one;
-        //}
+        Transform parent = FindObjectOfType<XROrigin>().transform;
+        Transform position = parent.Find("Camera Offset/Main Camera/CenterEyeAnchor").transform;
+        if (rotateCompass != null)
+        {
+            rotateCompass.transform.SetParent(position);
+            rotateCompass.transform.localPosition = Vector3.zero;
+            rotateCompass.transform.localRotation = Quaternion.identity;
+            rotateCompass.transform.localScale = Vector3.one;
+        }
     }
 
     /// <summary>

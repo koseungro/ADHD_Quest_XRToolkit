@@ -41,7 +41,7 @@ public class SceneLoader : Singleton<SceneLoader>
         {
             Setting = GetComponent<CurvedUI.CurvedUISettings>();
             canvas = transform.GetComponent<Canvas>();
-            canvas.worldCamera = GameObject.Find("OVRCameraRig/TrackingSpace/Camera_UI").GetComponent<Camera>();
+            canvas.worldCamera = GameObject.Find("XR Origin/Camera Offset/Main Camera/Camera_UI").GetComponent<Camera>();
             canvasGroup = transform.GetChild(0).GetComponent<CanvasGroup>();
         }
         //StartCoroutine(StartScene());

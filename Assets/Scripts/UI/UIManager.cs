@@ -69,7 +69,7 @@ public class UIManager : Singleton<UIManager>
     {
         base.Awake();
         InitDrawOrder();
-        Transform Parent = GameObject.Find("OVRCameraRig/TrackingSpace/Camera_UI").transform;
+        Transform Parent = GameObject.Find("XR Origin/Camera Offset/Main Camera/Camera_UI").transform;
         HalfFade = Parent.Find("Canvas_Head/HalfFade").GetComponent<CanvasGroup>();
         FullFade2 = Parent.Find("Canvas_Head/FullFade2").GetComponent<CanvasGroup>();
         FullFade = Parent.Find("Canvas_Fade/FullFade").GetComponent<CanvasGroup>();
