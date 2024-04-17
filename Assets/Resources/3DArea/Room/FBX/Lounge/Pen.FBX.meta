@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: d0397a81164d38e4082b804e9b3c692f
+timeCreated: 1530691132
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Board
+    100002: Circle004
+    100004: Coca
+    100006: Form56
+    100008: GalaxyNote4_Low
+    100010: Highlighter
+    100012: Highlighter001
+    100014: Note
+    100016: note
+    100018: Obj_book_etc_01
+    100020: Obj_book_etc_04
+    100022: Obj_book_etc_11
+    100024: Obj_book_work_01
+    100026: Obj_book_work_02
+    100028: Obj_Desk_01
+    100030: Obj_Desk_03
+    100032: Obj_eraser_01
+    100034: Obj_pen_02
+    100036: Obj_pen_02(1)
+    100038: Obj_pencil_box
+    100040: //RootNode
+    100042: Phone_02
+    100044: Rectangle161
+    400000: Board
+    400002: Circle004
+    400004: Coca
+    400006: Form56
+    400008: GalaxyNote4_Low
+    400010: Highlighter
+    400012: Highlighter001
+    400014: Note
+    400016: note
+    400018: Obj_book_etc_01
+    400020: Obj_book_etc_04
+    400022: Obj_book_etc_11
+    400024: Obj_book_work_01
+    400026: Obj_book_work_02
+    400028: Obj_Desk_01
+    400030: Obj_Desk_03
+    400032: Obj_eraser_01
+    400034: Obj_pen_02
+    400036: Obj_pen_02(1)
+    400038: Obj_pencil_box
+    400040: //RootNode
+    400042: Phone_02
+    400044: Rectangle161
+    2300000: Board
+    2300002: Circle004
+    2300004: Coca
+    2300006: Form56
+    2300008: GalaxyNote4_Low
+    2300010: Highlighter
+    2300012: Highlighter001
+    2300014: Note
+    2300016: Obj_book_etc_01
+    2300018: Obj_book_etc_04
+    2300020: Obj_book_etc_11
+    2300022: Obj_book_work_01
+    2300024: Obj_book_work_02
+    2300026: Obj_eraser_01
+    2300028: Obj_pen_02
+    2300030: Obj_pen_02(1)
+    2300032: Phone_02
+    2300034: Rectangle161
+    3300000: Board
+    3300002: Circle004
+    3300004: Coca
+    3300006: Form56
+    3300008: GalaxyNote4_Low
+    3300010: Highlighter
+    3300012: Highlighter001
+    3300014: Note
+    3300016: Obj_book_etc_01
+    3300018: Obj_book_etc_04
+    3300020: Obj_book_etc_11
+    3300022: Obj_book_work_01
+    3300024: Obj_book_work_02
+    3300026: Obj_eraser_01
+    3300028: Obj_pen_02
+    3300030: Obj_pen_02(1)
+    3300032: Phone_02
+    3300034: Rectangle161
+    4300000: GalaxyNote4_Low
+    4300002: Obj_eraser_01
+    4300004: Note
+    4300006: Obj_pen_02
+    4300008: Obj_pen_02(1)
+    4300010: Obj_book_work_02
+    4300012: Obj_book_work_01
+    4300014: Phone_02
+    4300016: Circle004
+    4300018: Rectangle161
+    4300020: Highlighter
+    4300022: Board
+    4300024: Highlighter001
+    4300026: Form56
+    4300028: Obj_book_etc_01
+    4300030: Obj_book_etc_04
+    4300032: Obj_book_etc_11
+    4300034: Coca
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

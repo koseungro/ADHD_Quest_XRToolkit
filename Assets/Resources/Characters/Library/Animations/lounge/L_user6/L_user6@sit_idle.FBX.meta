@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: 5685f89d97ad819448a8dd6c2b59b5fd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: human_Bip
+    100002: human_Head
+    100004: human_HeadNub
+    100006: human_L Calf
+    100008: human_L Clavicle
+    100010: human_L Finger0
+    100012: human_L Finger01
+    100014: human_L Finger02
+    100016: human_L Finger0Nub
+    100018: human_L Finger1
+    100020: human_L Finger11
+    100022: human_L Finger12
+    100024: human_L Finger1Nub
+    100026: human_L Finger2
+    100028: human_L Finger21
+    100030: human_L Finger22
+    100032: human_L Finger2Nub
+    100034: human_L Finger3
+    100036: human_L Finger31
+    100038: human_L Finger32
+    100040: human_L Finger3Nub
+    100042: human_L Finger4
+    100044: human_L Finger41
+    100046: human_L Finger42
+    100048: human_L Finger4Nub
+    100050: human_L Foot
+    100052: human_L Forearm
+    100054: human_L Hand
+    100056: human_L Thigh
+    100058: human_L Toe0
+    100060: human_L Toe0Nub
+    100062: human_L UpperArm
+    100064: human_Neck
+    100066: human_Pelvis
+    100068: human_R Calf
+    100070: human_R Clavicle
+    100072: human_R Finger0
+    100074: human_R Finger01
+    100076: human_R Finger02
+    100078: human_R Finger0Nub
+    100080: human_R Finger1
+    100082: human_R Finger11
+    100084: human_R Finger12
+    100086: human_R Finger1Nub
+    100088: human_R Finger2
+    100090: human_R Finger21
+    100092: human_R Finger22
+    100094: human_R Finger2Nub
+    100096: human_R Finger3
+    100098: human_R Finger31
+    100100: human_R Finger32
+    100102: human_R Finger3Nub
+    100104: human_R Finger4
+    100106: human_R Finger41
+    100108: human_R Finger42
+    100110: human_R Finger4Nub
+    100112: human_R Foot
+    100114: human_R Forearm
+    100116: human_R Hand
+    100118: human_R R Toe0
+    100120: human_R Thigh
+    100122: human_R Toe0Nub
+    100124: human_R UpperArm
+    100126: human_Spine
+    100128: human_Spine1
+    100130: human_Spine2
+    100132: human_Spine3
+    100134: //RootNode
+    400000: human_Bip
+    400002: human_Head
+    400004: human_HeadNub
+    400006: human_L Calf
+    400008: human_L Clavicle
+    400010: human_L Finger0
+    400012: human_L Finger01
+    400014: human_L Finger02
+    400016: human_L Finger0Nub
+    400018: human_L Finger1
+    400020: human_L Finger11
+    400022: human_L Finger12
+    400024: human_L Finger1Nub
+    400026: human_L Finger2
+    400028: human_L Finger21
+    400030: human_L Finger22
+    400032: human_L Finger2Nub
+    400034: human_L Finger3
+    400036: human_L Finger31
+    400038: human_L Finger32
+    400040: human_L Finger3Nub
+    400042: human_L Finger4
+    400044: human_L Finger41
+    400046: human_L Finger42
+    400048: human_L Finger4Nub
+    400050: human_L Foot
+    400052: human_L Forearm
+    400054: human_L Hand
+    400056: human_L Thigh
+    400058: human_L Toe0
+    400060: human_L Toe0Nub
+    400062: human_L UpperArm
+    400064: human_Neck
+    400066: human_Pelvis
+    400068: human_R Calf
+    400070: human_R Clavicle
+    400072: human_R Finger0
+    400074: human_R Finger01
+    400076: human_R Finger02
+    400078: human_R Finger0Nub
+    400080: human_R Finger1
+    400082: human_R Finger11
+    400084: human_R Finger12
+    400086: human_R Finger1Nub
+    400088: human_R Finger2
+    400090: human_R Finger21
+    400092: human_R Finger22
+    400094: human_R Finger2Nub
+    400096: human_R Finger3
+    400098: human_R Finger31
+    400100: human_R Finger32
+    400102: human_R Finger3Nub
+    400104: human_R Finger4
+    400106: human_R Finger41
+    400108: human_R Finger42
+    400110: human_R Finger4Nub
+    400112: human_R Foot
+    400114: human_R Forearm
+    400116: human_R Hand
+    400118: human_R R Toe0
+    400120: human_R Thigh
+    400122: human_R Toe0Nub
+    400124: human_R UpperArm
+    400126: human_Spine
+    400128: human_Spine1
+    400130: human_Spine2
+    400132: human_Spine3
+    400134: //RootNode
+    7400000: sit_idle
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: sit_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

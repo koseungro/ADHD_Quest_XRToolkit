@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: e69cc5547b5537a48bf6ad1d056d1eae
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: store343
+    100004: store423
+    100006: store447
+    100008: store781
+    100010: store785
+    100012: store786
+    100014: store787
+    100016: Object193
+    100018: store788
+    100020: store789
+    100022: store790
+    100024: Snack_Text
+    400000: //RootNode
+    400002: store343
+    400004: store423
+    400006: store447
+    400008: store781
+    400010: store785
+    400012: store786
+    400014: store787
+    400016: Object193
+    400018: store788
+    400020: store789
+    400022: store790
+    400024: Snack_Text
+    2300000: store343
+    2300002: store423
+    2300004: store447
+    2300006: store781
+    2300008: store785
+    2300010: store786
+    2300012: store787
+    2300014: Object193
+    2300016: store788
+    2300018: store789
+    2300020: store790
+    2300022: Snack_Text
+    3300000: store343
+    3300002: store423
+    3300004: store447
+    3300006: store781
+    3300008: store785
+    3300010: store786
+    3300012: store787
+    3300014: Object193
+    3300016: store788
+    3300018: store789
+    3300020: store790
+    3300022: Snack_Text
+    4300000: store785
+    4300002: store781
+    4300004: store423
+    4300006: store447
+    4300008: store343
+    4300010: store786
+    4300012: store787
+    4300014: store788
+    4300016: store789
+    4300018: Object193
+    4300020: store790
+    4300022: Snack_Text
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 23 - Default
+    second: {fileID: 2100000, guid: d15a3dd1f48ada44e80b7e4cb8498025, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back
+    second: {fileID: 2100000, guid: d9ab611741c7e0843bdf88388d1c4560, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Snack_Texture
+    second: {fileID: 2100000, guid: 3e265a75727ee944b920f04f29f38678, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow_Dis
+    second: {fileID: 2100000, guid: af1ebf6876f15af40a2e06b44d522b27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: store01-1
+    second: {fileID: 2100000, guid: 91f239b598ac3af48a67594359b24c42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: store01-2
+    second: {fileID: 2100000, guid: 7ab4ee43465faea4fb7dffe4153df672, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: store02-1
+    second: {fileID: 2100000, guid: 5e2873fe2d4e9a54aac685e03e2566fc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

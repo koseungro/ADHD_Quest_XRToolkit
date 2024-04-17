@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: 8f5e451c710d7e24693b974d7a8ddb02
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: Bip01 Head
+    100004: Bip01 L Calf
+    100006: Bip01 L Clavicle
+    100008: Bip01 L Finger0
+    100010: Bip01 L Finger01
+    100012: Bip01 L Finger02
+    100014: Bip01 L Finger1
+    100016: Bip01 L Finger11
+    100018: Bip01 L Finger12
+    100020: Bip01 L Finger2
+    100022: Bip01 L Finger21
+    100024: Bip01 L Finger22
+    100026: Bip01 L Finger3
+    100028: Bip01 L Finger31
+    100030: Bip01 L Finger32
+    100032: Bip01 L Finger4
+    100034: Bip01 L Finger41
+    100036: Bip01 L Finger42
+    100038: Bip01 L Foot
+    100040: Bip01 L Forearm
+    100042: Bip01 L Hand
+    100044: Bip01 L Thigh
+    100046: Bip01 L Toe0
+    100048: Bip01 L UpperArm
+    100050: Bip01 Neck
+    100052: Bip01 Pelvis
+    100054: Bip01 Prop1
+    100056: Bip01 Prop2
+    100058: Bip01 R Calf
+    100060: Bip01 R Clavicle
+    100062: Bip01 R Finger0
+    100064: Bip01 R Finger01
+    100066: Bip01 R Finger02
+    100068: Bip01 R Finger1
+    100070: Bip01 R Finger11
+    100072: Bip01 R Finger12
+    100074: Bip01 R Finger2
+    100076: Bip01 R Finger21
+    100078: Bip01 R Finger22
+    100080: Bip01 R Finger3
+    100082: Bip01 R Finger31
+    100084: Bip01 R Finger32
+    100086: Bip01 R Finger4
+    100088: Bip01 R Finger41
+    100090: Bip01 R Finger42
+    100092: Bip01 R Foot
+    100094: Bip01 R Forearm
+    100096: Bip01 R Hand
+    100098: Bip01 R Thigh
+    100100: Bip01 R Toe0
+    100102: Bip01 R UpperArm
+    100104: Bip01 Spine
+    100106: Bip01 Spine1
+    100108: Bip01 Spine2
+    100110: Bip01 Xtra01
+    100112: braid_hair
+    100114: Dummy001
+    100116: eye_left_bone
+    100118: eye_right_bone
+    100120: eyeball_LEFT
+    100122: eyeball_right
+    100124: face
+    100126: female_elegantsuit
+    100128: female_sportpant
+    100130: hand
+    100132: lower_jaw
+    100134: shoes
+    100136: //RootNode
+    100138: Bip001 HeadNub
+    100140: Bip001 L Finger0Nub
+    100142: Bip001 L Finger1Nub
+    100144: Bip001 L Finger2Nub
+    100146: Bip001 L Finger3Nub
+    100148: Bip001 L Finger4Nub
+    100150: Bip001 L Toe0Nub
+    100152: Bip001 R Finger0Nub
+    100154: Bip001 R Finger1Nub
+    100156: Bip001 R Finger2Nub
+    100158: Bip001 R Finger3Nub
+    100160: Bip001 R Finger4Nub
+    100162: Bip001 R Toe0Nub
+    100164: Bip01 Xtra01Nub
+    100166: ClothDummy
+    100168: ExposeTransform002
+    100170: ExposeTransform003
+    100172: Fabric
+    100174: Point001
+    100176: Point087
+    100178: Point130
+    100180: Point_eyeL
+    100182: Point_eyeR
+    400000: Bip01
+    400002: Bip01 Head
+    400004: Bip01 L Calf
+    400006: Bip01 L Clavicle
+    400008: Bip01 L Finger0
+    400010: Bip01 L Finger01
+    400012: Bip01 L Finger02
+    400014: Bip01 L Finger1
+    400016: Bip01 L Finger11
+    400018: Bip01 L Finger12
+    400020: Bip01 L Finger2
+    400022: Bip01 L Finger21
+    400024: Bip01 L Finger22
+    400026: Bip01 L Finger3
+    400028: Bip01 L Finger31
+    400030: Bip01 L Finger32
+    400032: Bip01 L Finger4
+    400034: Bip01 L Finger41
+    400036: Bip01 L Finger42
+    400038: Bip01 L Foot
+    400040: Bip01 L Forearm
+    400042: Bip01 L Hand
+    400044: Bip01 L Thigh
+    400046: Bip01 L Toe0
+    400048: Bip01 L UpperArm
+    400050: Bip01 Neck
+    400052: Bip01 Pelvis
+    400054: Bip01 Prop1
+    400056: Bip01 Prop2
+    400058: Bip01 R Calf
+    400060: Bip01 R Clavicle
+    400062: Bip01 R Finger0
+    400064: Bip01 R Finger01
+    400066: Bip01 R Finger02
+    400068: Bip01 R Finger1
+    400070: Bip01 R Finger11
+    400072: Bip01 R Finger12
+    400074: Bip01 R Finger2
+    400076: Bip01 R Finger21
+    400078: Bip01 R Finger22
+    400080: Bip01 R Finger3
+    400082: Bip01 R Finger31
+    400084: Bip01 R Finger32
+    400086: Bip01 R Finger4
+    400088: Bip01 R Finger41
+    400090: Bip01 R Finger42
+    400092: Bip01 R Foot
+    400094: Bip01 R Forearm
+    400096: Bip01 R Hand
+    400098: Bip01 R Thigh
+    400100: Bip01 R Toe0
+    400102: Bip01 R UpperArm
+    400104: Bip01 Spine
+    400106: Bip01 Spine1
+    400108: Bip01 Spine2
+    400110: Bip01 Xtra01
+    400112: braid_hair
+    400114: Dummy001
+    400116: eye_left_bone
+    400118: eye_right_bone
+    400120: eyeball_LEFT
+    400122: eyeball_right
+    400124: face
+    400126: female_elegantsuit
+    400128: female_sportpant
+    400130: hand
+    400132: lower_jaw
+    400134: shoes
+    400136: //RootNode
+    400138: Bip001 HeadNub
+    400140: Bip001 L Finger0Nub
+    400142: Bip001 L Finger1Nub
+    400144: Bip001 L Finger2Nub
+    400146: Bip001 L Finger3Nub
+    400148: Bip001 L Finger4Nub
+    400150: Bip001 L Toe0Nub
+    400152: Bip001 R Finger0Nub
+    400154: Bip001 R Finger1Nub
+    400156: Bip001 R Finger2Nub
+    400158: Bip001 R Finger3Nub
+    400160: Bip001 R Finger4Nub
+    400162: Bip001 R Toe0Nub
+    400164: Bip01 Xtra01Nub
+    400166: ClothDummy
+    400168: ExposeTransform002
+    400170: ExposeTransform003
+    400172: Fabric
+    400174: Point001
+    400176: Point087
+    400178: Point130
+    400180: Point_eyeL
+    400182: Point_eyeR
+    2100000: braid01
+    2100002: high-poly
+    2100004: female_elegantsuit01
+    2100006: oldwoman
+    2100008: tongue01
+    2100010: teeth_shape03
+    2100012: eyelashes01
+    2100014: sprotpants
+    2100016: body
+    2100018: shoes
+    2300000: eyeball_LEFT
+    2300002: eyeball_right
+    2300004: Fabric
+    3300000: eyeball_LEFT
+    3300002: eyeball_right
+    3300004: Fabric
+    4300000: braid_hair
+    4300002: eyeball_LEFT
+    4300004: eyeball_right
+    4300006: female_elegantsuit
+    4300008: hand
+    4300010: face
+    4300012: female_sportpant
+    4300014: shoes
+    4300016: Fabric
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: braid_hair
+    13700002: face
+    13700004: female_elegantsuit
+    13700006: female_sportpant
+    13700008: hand
+    13700010: shoes
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15 - Default
+    second: {fileID: 2100000, guid: 159d07c0e2fb8564d8a6f63afbefab0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 35e12cb7e566b9b49b5dbe20ae6ec1e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: braid01
+    second: {fileID: 2100000, guid: 09e21ecc0ed2ade4dab5e3d58b3a4def, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyelashes01
+    second: {fileID: 2100000, guid: 4d18916df6b67544ca36f62c3102f3dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_elegantsuit01
+    second: {fileID: 2100000, guid: 26273ab7f58f684498b47bd3fbe17022, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: high-poly
+    second: {fileID: 2100000, guid: 3ee0115cd551c544c9c799bd32ef467e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oldwoman
+    second: {fileID: 2100000, guid: 617830e14faaa6546a92268d552d2615, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoes
+    second: {fileID: 2100000, guid: 0d5b165d104dc6a4094d1bf6f404c6c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sprotpants
+    second: {fileID: 2100000, guid: 723d14a33376c804586ff5ee4cb3ce66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teeth_shape03
+    second: {fileID: 2100000, guid: 99b03bf42e8bc3144b0b509cf5bb68ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tongue01
+    second: {fileID: 2100000, guid: d796ed8a9af97524d8cf7b5a6050bb33, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

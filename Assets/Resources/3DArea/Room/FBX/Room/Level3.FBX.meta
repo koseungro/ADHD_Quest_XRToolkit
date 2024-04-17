@@ -1,0 +1,411 @@
+fileFormatVersion: 2
+guid: e852d69667077d74bbca3525efb7403e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box001
+    100002: cylinder_1_3
+    100004: Form56
+    100006: Highlighter001
+    100008: //RootNode
+    100010: Obj_book_etc_01
+    100012: Obj_book_etc_012
+    100014: Obj_book_etc_013
+    100016: Obj_book_etc_014
+    100018: Obj_book_etc_015
+    100020: Obj_book_etc_019
+    100022: Obj_book_etc_02
+    100024: Obj_book_etc_03
+    100026: Obj_book_etc_04
+    100028: Obj_book_etc_05
+    100030: Obj_book_etc_10
+    100032: Obj_book_etc_11
+    100034: Obj_Desk_01
+    100036: Obj_Desk_03
+    100038: Obj_note_002
+    100040: Obj_note_003
+    100042: Obj_note_004
+    100044: Obj_note_01
+    100046: Obj_pen_02
+    100048: Obj_pen_02(1)
+    100050: Obj_pen_02(1)001
+    100052: Obj_pencil_box
+    100054: Rectangle001
+    100056: White
+    100058: Box003
+    100060: Box004
+    100062: GalaxyNote4_Low
+    400000: Box001
+    400002: cylinder_1_3
+    400004: Form56
+    400006: Highlighter001
+    400008: //RootNode
+    400010: Obj_book_etc_01
+    400012: Obj_book_etc_012
+    400014: Obj_book_etc_013
+    400016: Obj_book_etc_014
+    400018: Obj_book_etc_015
+    400020: Obj_book_etc_019
+    400022: Obj_book_etc_02
+    400024: Obj_book_etc_03
+    400026: Obj_book_etc_04
+    400028: Obj_book_etc_05
+    400030: Obj_book_etc_10
+    400032: Obj_book_etc_11
+    400034: Obj_Desk_01
+    400036: Obj_Desk_03
+    400038: Obj_note_002
+    400040: Obj_note_003
+    400042: Obj_note_004
+    400044: Obj_note_01
+    400046: Obj_pen_02
+    400048: Obj_pen_02(1)
+    400050: Obj_pen_02(1)001
+    400052: Obj_pencil_box
+    400054: Rectangle001
+    400056: White
+    400058: Box003
+    400060: Box004
+    400062: GalaxyNote4_Low
+    2300000: Box001
+    2300002: cylinder_1_3
+    2300004: Form56
+    2300006: Highlighter001
+    2300008: Obj_book_etc_01
+    2300010: Obj_book_etc_012
+    2300012: Obj_book_etc_013
+    2300014: Obj_book_etc_014
+    2300016: Obj_book_etc_015
+    2300018: Obj_book_etc_019
+    2300020: Obj_book_etc_02
+    2300022: Obj_book_etc_03
+    2300024: Obj_book_etc_04
+    2300026: Obj_book_etc_05
+    2300028: Obj_book_etc_10
+    2300030: Obj_book_etc_11
+    2300032: Obj_note_002
+    2300034: Obj_note_003
+    2300036: Obj_note_004
+    2300038: Obj_note_01
+    2300040: Obj_pen_02
+    2300042: Obj_pen_02(1)
+    2300044: Obj_pen_02(1)001
+    2300046: Rectangle001
+    2300048: White
+    2300050: Box003
+    2300052: Box004
+    2300054: GalaxyNote4_Low
+    3300000: Box001
+    3300002: cylinder_1_3
+    3300004: Form56
+    3300006: Highlighter001
+    3300008: Obj_book_etc_01
+    3300010: Obj_book_etc_012
+    3300012: Obj_book_etc_013
+    3300014: Obj_book_etc_014
+    3300016: Obj_book_etc_015
+    3300018: Obj_book_etc_019
+    3300020: Obj_book_etc_02
+    3300022: Obj_book_etc_03
+    3300024: Obj_book_etc_04
+    3300026: Obj_book_etc_05
+    3300028: Obj_book_etc_10
+    3300030: Obj_book_etc_11
+    3300032: Obj_note_002
+    3300034: Obj_note_003
+    3300036: Obj_note_004
+    3300038: Obj_note_01
+    3300040: Obj_pen_02
+    3300042: Obj_pen_02(1)
+    3300044: Obj_pen_02(1)001
+    3300046: Rectangle001
+    3300048: White
+    3300050: Box003
+    3300052: Box004
+    3300054: GalaxyNote4_Low
+    4300000: Obj_book_etc_01
+    4300002: Obj_book_etc_02
+    4300004: Obj_book_etc_03
+    4300006: Obj_book_etc_04
+    4300008: Obj_book_etc_05
+    4300010: Obj_book_etc_10
+    4300012: Obj_book_etc_11
+    4300014: Obj_book_etc_012
+    4300016: Obj_book_etc_013
+    4300018: Obj_book_etc_014
+    4300020: Obj_book_etc_015
+    4300022: Obj_book_etc_019
+    4300024: Obj_pen_02
+    4300026: Obj_pen_02(1)
+    4300028: Obj_pen_02(1)001
+    4300030: Obj_note_01
+    4300032: Obj_note_002
+    4300034: Obj_note_003
+    4300036: Obj_note_004
+    4300038: Form56
+    4300040: cylinder_1_3
+    4300042: Rectangle001
+    4300044: Box001
+    4300046: Highlighter001
+    4300048: White
+    4300050: GalaxyNote4_Low
+    4300052: Box003
+    4300054: Box004
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: faf629ef8aa3e074fa69f5636f5a3ca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 - Default
+    second: {fileID: 2100000, guid: febc860818613744799ffa96e8b0f115, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13 - Default
+    second: {fileID: 2100000, guid: a31eff85689977a4b88ffae98d56440a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14 - Default
+    second: {fileID: 2100000, guid: c88b23742c0927749912fa406b558923, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 23 - Default
+    second: {fileID: 2100000, guid: 452fb5af98526144dbe3004400803ed6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back
+    second: {fileID: 2100000, guid: d4cd607f465262245aff64a29b4f233a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Shelf
+    second: {fileID: 2100000, guid: ed806e54073357c439187e22e27f788a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: High_02
+    second: {fileID: 2100000, guid: d9930f1d928601f498e8e9a407a2daa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Book_02
+    second: {fileID: 2100000, guid: 762c7a62706b44f44a81f2c6d541dd42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Book_04
+    second: {fileID: 2100000, guid: cdba5c8f09a1b5f459c577e385943571, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Book_06
+    second: {fileID: 2100000, guid: 8daf163e9b509084397f716b7982c599, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Book_07
+    second: {fileID: 2100000, guid: 285356f2916117a4ab6f8d49e0c926cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Book_08
+    second: {fileID: 2100000, guid: 5a6070b9e5abfc347859dad3d3b4a8df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Book_09
+    second: {fileID: 2100000, guid: 215d5f4dab811d845b76a0253f9074d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Book_10
+    second: {fileID: 2100000, guid: 15f05bf5d1115b94aa757c32a0171536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Book_page
+    second: {fileID: 2100000, guid: fc8419ccb5f93b24b877c4fc033d0879, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Note_00
+    second: {fileID: 2100000, guid: ce64e585583e3a54db2e39b3bda2704e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Note_01
+    second: {fileID: 2100000, guid: b1deb86925679794f9b992397f4bc976, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Note_02
+    second: {fileID: 2100000, guid: 5fd1c65919ab0f545920b7fb18ef54fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Note_03
+    second: {fileID: 2100000, guid: 299fcbea1445b954aa637e524453c029, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pen_02_1
+    second: {fileID: 2100000, guid: 0ef665baccbd27947bdd5e87fcfaff22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pen_02_2
+    second: {fileID: 2100000, guid: 78d757d69a2c47544a9598e295bb027c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pen_02_3
+    second: {fileID: 2100000, guid: 11488ff8bfc7cf64c96011a7947570d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pen_02_4
+    second: {fileID: 2100000, guid: dc4486271bc8abc44af5e132dc3b970d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #23668'
+    second: {fileID: 2100000, guid: 8daf163e9b509084397f716b7982c599, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pen
+    second: {fileID: 2100000, guid: e65784447bdde7c4e8a4c6b9b0bc1157, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pen_Head
+    second: {fileID: 2100000, guid: f428dd5765bb5eb479a65e46603e1645, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Phone
+    second: {fileID: 2100000, guid: 0bd924cb728b86944bc463e92131ca2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: 1a16d313e5c99734a90acb117a0851fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ruler
+    second: {fileID: 2100000, guid: ab24f41a05f0a914bb579b0eee66477b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tape
+    second: {fileID: 2100000, guid: 5d7898b95aa3c03408722282abe95326, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow Highlighter
+    second: {fileID: 2100000, guid: 1d329b57502c50f49b14a0e27c45b78d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: e315f8b196d9fc6409ab78f81a973652, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic blue
+    second: {fileID: 2100000, guid: d4b98d6e2faf0f445af102c1314ecd13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_224086086
+    second: {fileID: 2100000, guid: 339d901460eae2445a521896279a6d13, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

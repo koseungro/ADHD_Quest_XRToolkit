@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: 7d19012bcb5051941b7c0b72e28d1312
+timeCreated: 1530750847
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Baseboard01
+    100002: Baseboard011
+    100004: Baseboard012
+    100006: Baseboard013
+    100008: Baseboard02
+    100010: Baseboard06
+    100012: Baseboard07
+    100014: Baseboard08
+    100016: Baseboard09
+    100018: Baseboard10
+    100020: Ceiling_003
+    100022: Ceiling_01
+    100024: Ceiling_02
+    100026: Floor
+    100028: Light_01
+    100030: Out_01
+    100032: Out_02
+    100034: Out_02 1
+    100036: //RootNode
+    100038: Wall00
+    100040: Wall01
+    100042: Wall03
+    100044: Window_001
+    100046: Window_002
+    100048: Window_003
+    100050: Window_004
+    100052: window_frame_001
+    100054: Window_wall_001
+    100056: Wall_00
+    100058: Wall_01
+    100060: Wall_02
+    100062: Wall_03
+    100064: Wall_04
+    400000: Baseboard01
+    400002: Baseboard011
+    400004: Baseboard012
+    400006: Baseboard013
+    400008: Baseboard02
+    400010: Baseboard06
+    400012: Baseboard07
+    400014: Baseboard08
+    400016: Baseboard09
+    400018: Baseboard10
+    400020: Ceiling_003
+    400022: Ceiling_01
+    400024: Ceiling_02
+    400026: Floor
+    400028: Light_01
+    400030: Out_01
+    400032: Out_02
+    400034: Out_02 1
+    400036: //RootNode
+    400038: Wall00
+    400040: Wall01
+    400042: Wall03
+    400044: Window_001
+    400046: Window_002
+    400048: Window_003
+    400050: Window_004
+    400052: window_frame_001
+    400054: Window_wall_001
+    400056: Wall_00
+    400058: Wall_01
+    400060: Wall_02
+    400062: Wall_03
+    400064: Wall_04
+    2300000: Baseboard01
+    2300002: Baseboard011
+    2300004: Baseboard012
+    2300006: Baseboard013
+    2300008: Baseboard02
+    2300010: Baseboard06
+    2300012: Baseboard07
+    2300014: Baseboard08
+    2300016: Baseboard09
+    2300018: Baseboard10
+    2300020: Ceiling_003
+    2300022: Ceiling_01
+    2300024: Ceiling_02
+    2300026: Floor
+    2300028: Light_01
+    2300030: Out_01
+    2300032: Out_02
+    2300034: Out_02 1
+    2300036: Wall00
+    2300038: Wall01
+    2300040: Wall03
+    2300042: Window_001
+    2300044: Window_002
+    2300046: Window_003
+    2300048: Window_004
+    2300050: window_frame_001
+    2300052: Wall_00
+    2300054: Wall_01
+    2300056: Wall_02
+    2300058: Wall_03
+    2300060: Wall_04
+    3300000: Baseboard01
+    3300002: Baseboard011
+    3300004: Baseboard012
+    3300006: Baseboard013
+    3300008: Baseboard02
+    3300010: Baseboard06
+    3300012: Baseboard07
+    3300014: Baseboard08
+    3300016: Baseboard09
+    3300018: Baseboard10
+    3300020: Ceiling_003
+    3300022: Ceiling_01
+    3300024: Ceiling_02
+    3300026: Floor
+    3300028: Light_01
+    3300030: Out_01
+    3300032: Out_02
+    3300034: Out_02 1
+    3300036: Wall00
+    3300038: Wall01
+    3300040: Wall03
+    3300042: Window_001
+    3300044: Window_002
+    3300046: Window_003
+    3300048: Window_004
+    3300050: window_frame_001
+    3300052: Wall_00
+    3300054: Wall_01
+    3300056: Wall_02
+    3300058: Wall_03
+    3300060: Wall_04
+    4300000: Wall03
+    4300002: window_frame_001
+    4300004: Window_001
+    4300006: Window_002
+    4300008: Window_003
+    4300010: Window_004
+    4300012: Wall01
+    4300014: Wall00
+    4300016: Floor
+    4300018: Light_01
+    4300020: Ceiling_01
+    4300022: Baseboard01
+    4300024: Baseboard02
+    4300026: Baseboard06
+    4300028: Baseboard07
+    4300030: Ceiling_02
+    4300032: Out_01
+    4300034: Out_02
+    4300036: Baseboard011
+    4300038: Baseboard012
+    4300040: Baseboard013
+    4300042: Ceiling_003
+    4300044: Out_02
+    4300046: Baseboard09
+    4300048: Baseboard10
+    4300050: Baseboard08
+    4300052: Wall_04
+    4300054: Wall_00
+    4300056: Wall_01
+    4300058: Wall_02
+    4300060: Wall_03
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

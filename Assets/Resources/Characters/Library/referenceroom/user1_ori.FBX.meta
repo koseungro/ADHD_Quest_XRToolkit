@@ -1,0 +1,288 @@
+fileFormatVersion: 2
+guid: c86f0d723843ea94698f623f23acfc3a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: Bip01 Head
+    100004: Bip01 L Calf
+    100006: Bip01 L Clavicle
+    100008: Bip01 L Finger0
+    100010: Bip01 L Finger01
+    100012: Bip01 L Finger02
+    100014: Bip01 L Finger1
+    100016: Bip01 L Finger11
+    100018: Bip01 L Finger12
+    100020: Bip01 L Finger2
+    100022: Bip01 L Finger21
+    100024: Bip01 L Finger22
+    100026: Bip01 L Finger3
+    100028: Bip01 L Finger31
+    100030: Bip01 L Finger32
+    100032: Bip01 L Finger4
+    100034: Bip01 L Finger41
+    100036: Bip01 L Finger42
+    100038: Bip01 L Foot
+    100040: Bip01 L Forearm
+    100042: Bip01 L Hand
+    100044: Bip01 L Thigh
+    100046: Bip01 L Toe0
+    100048: Bip01 L UpperArm
+    100050: Bip01 Neck
+    100052: Bip01 Pelvis
+    100054: Bip01 R Calf
+    100056: Bip01 R Clavicle
+    100058: Bip01 R Finger0
+    100060: Bip01 R Finger01
+    100062: Bip01 R Finger02
+    100064: Bip01 R Finger1
+    100066: Bip01 R Finger11
+    100068: Bip01 R Finger12
+    100070: Bip01 R Finger2
+    100072: Bip01 R Finger21
+    100074: Bip01 R Finger22
+    100076: Bip01 R Finger3
+    100078: Bip01 R Finger31
+    100080: Bip01 R Finger32
+    100082: Bip01 R Finger4
+    100084: Bip01 R Finger41
+    100086: Bip01 R Finger42
+    100088: Bip01 R Foot
+    100090: Bip01 R Forearm
+    100092: Bip01 R Hand
+    100094: Bip01 R Thigh
+    100096: Bip01 R Toe0
+    100098: Bip01 R UpperArm
+    100100: Bip01 Spine
+    100102: Bip01 Spine1
+    100104: Bip01 Spine2
+    100106: Dummy001
+    100108: eye_left_bone
+    100110: eye_right_bone
+    100112: girl_body
+    100114: girl_face3
+    100116: hair_band
+    100118: lower_jaw
+    100120: school_uniform_skirt
+    100122: top
+    100124: //RootNode
+    400000: Bip01
+    400002: Bip01 Head
+    400004: Bip01 L Calf
+    400006: Bip01 L Clavicle
+    400008: Bip01 L Finger0
+    400010: Bip01 L Finger01
+    400012: Bip01 L Finger02
+    400014: Bip01 L Finger1
+    400016: Bip01 L Finger11
+    400018: Bip01 L Finger12
+    400020: Bip01 L Finger2
+    400022: Bip01 L Finger21
+    400024: Bip01 L Finger22
+    400026: Bip01 L Finger3
+    400028: Bip01 L Finger31
+    400030: Bip01 L Finger32
+    400032: Bip01 L Finger4
+    400034: Bip01 L Finger41
+    400036: Bip01 L Finger42
+    400038: Bip01 L Foot
+    400040: Bip01 L Forearm
+    400042: Bip01 L Hand
+    400044: Bip01 L Thigh
+    400046: Bip01 L Toe0
+    400048: Bip01 L UpperArm
+    400050: Bip01 Neck
+    400052: Bip01 Pelvis
+    400054: Bip01 R Calf
+    400056: Bip01 R Clavicle
+    400058: Bip01 R Finger0
+    400060: Bip01 R Finger01
+    400062: Bip01 R Finger02
+    400064: Bip01 R Finger1
+    400066: Bip01 R Finger11
+    400068: Bip01 R Finger12
+    400070: Bip01 R Finger2
+    400072: Bip01 R Finger21
+    400074: Bip01 R Finger22
+    400076: Bip01 R Finger3
+    400078: Bip01 R Finger31
+    400080: Bip01 R Finger32
+    400082: Bip01 R Finger4
+    400084: Bip01 R Finger41
+    400086: Bip01 R Finger42
+    400088: Bip01 R Foot
+    400090: Bip01 R Forearm
+    400092: Bip01 R Hand
+    400094: Bip01 R Thigh
+    400096: Bip01 R Toe0
+    400098: Bip01 R UpperArm
+    400100: Bip01 Spine
+    400102: Bip01 Spine1
+    400104: Bip01 Spine2
+    400106: Dummy001
+    400108: eye_left_bone
+    400110: eye_right_bone
+    400112: girl_body
+    400114: girl_face3
+    400116: hair_band
+    400118: lower_jaw
+    400120: school_uniform_skirt
+    400122: top
+    400124: //RootNode
+    2100000: face
+    2100002: eyes
+    2100004: teeth
+    2100006: tongue
+    2100008: lash
+    2100010: girl_uniform
+    2100012: hair
+    2100014: girl_body
+    2100016: 'Material #494'
+    2100018: body
+    2300000: girl_body
+    3300000: girl_body
+    4300000: girl_face3
+    4300002: school_uniform_skirt
+    4300004: hair_band
+    4300006: girl_body
+    4300008: top
+    9500000: //RootNode
+    13700000: girl_face3
+    13700002: hair_band
+    13700004: school_uniform_skirt
+    13700006: top
+    13700008: girl_body
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #392'
+    second: {fileID: 2100000, guid: 7fc06c3167c58f24c9eb74faf7a7fdd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: b5dcef1e6e39cab4f93e4cc787d1a67f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes
+    second: {fileID: 2100000, guid: 015fafe5d8d46e84faeafc8aefe233b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face
+    second: {fileID: 2100000, guid: 015fafe5d8d46e84faeafc8aefe233b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: girl_body
+    second: {fileID: 2100000, guid: 629c83af7c7ab0f4ca5ce4f9a88b57f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: girl_uniform
+    second: {fileID: 2100000, guid: 7fc06c3167c58f24c9eb74faf7a7fdd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair
+    second: {fileID: 2100000, guid: 9f9d1a0b1beb34247af96c2066a643cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lash
+    second: {fileID: 2100000, guid: 9f9d1a0b1beb34247af96c2066a643cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teeth
+    second: {fileID: 2100000, guid: 0c0abdd2ce0b0924c8582ad35d86115f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tongue
+    second: {fileID: 2100000, guid: 96f154083a4db294a8c12137fd9d9d25, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

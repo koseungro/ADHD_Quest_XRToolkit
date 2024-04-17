@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 06a19bb025f973840ab32db89e166f65
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cup_01
+    100002: //RootNode
+    100004: Cup_02
+    100006: Hot_Water
+    100008: Wood_01
+    100010: Wood_02
+    100012: Object001
+    400000: Cup_01
+    400002: //RootNode
+    400004: Cup_02
+    400006: Hot_Water
+    400008: Wood_01
+    400010: Wood_02
+    400012: Object001
+    2100000: Cup_03
+    2100002: Cup_01
+    2100004: Cup_02
+    2100006: Hot_02
+    2100008: Hot_01
+    2100010: 09 - Default
+    2100012: 13 - Default
+    2300000: Cup_01
+    2300002: Cup_02
+    2300004: Hot_Water
+    2300006: Wood_01
+    2300008: Wood_02
+    2300010: Object001
+    3300000: Cup_01
+    3300002: Cup_02
+    3300004: Hot_Water
+    3300006: Wood_01
+    3300008: Wood_02
+    3300010: Object001
+    4300000: Cup_02
+    4300002: Cup_01
+    4300004: Hot_Water
+    4300006: Wood_02
+    4300008: Wood_01
+    4300010: Object001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 - Default
+    second: {fileID: 2100000, guid: d82ad2251def4e4449b6d92d81366afb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13 - Default
+    second: {fileID: 2100000, guid: 73f8df61eedee46499f9b25be5abecd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cup_01
+    second: {fileID: 2100000, guid: 36953a46a73fb564198347c9a148ac5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cup_02
+    second: {fileID: 2100000, guid: 130ad627a9a28a04d8f58266df9a431c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cup_03
+    second: {fileID: 2100000, guid: bf4ff9b7e928b0042be81b47fb3e2283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hot_01
+    second: {fileID: 2100000, guid: a26053b0a2c84094db0c4a129104e3df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hot_02
+    second: {fileID: 2100000, guid: edb975fbaa88cfe458ea943fb51ce966, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

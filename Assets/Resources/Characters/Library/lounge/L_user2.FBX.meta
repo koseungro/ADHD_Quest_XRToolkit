@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 57bba3ec85d0e314b89007143522bab2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bip001 HeadNub
+    100002: Bip001 L Finger0Nub
+    100004: Bip001 L Finger1Nub
+    100006: Bip001 L Finger2Nub
+    100008: Bip001 L Finger3Nub
+    100010: Bip001 L Finger4Nub
+    100012: Bip001 L Toe0Nub
+    100014: Bip001 R Finger0Nub
+    100016: Bip001 R Finger1Nub
+    100018: Bip001 R Finger2Nub
+    100020: Bip001 R Finger3Nub
+    100022: Bip001 R Finger4Nub
+    100024: Bip001 R Toe0Nub
+    100026: Bip01
+    100028: Bip01 Head
+    100030: Bip01 L Calf
+    100032: Bip01 L Clavicle
+    100034: Bip01 L Finger0
+    100036: Bip01 L Finger01
+    100038: Bip01 L Finger02
+    100040: Bip01 L Finger1
+    100042: Bip01 L Finger11
+    100044: Bip01 L Finger12
+    100046: Bip01 L Finger2
+    100048: Bip01 L Finger21
+    100050: Bip01 L Finger22
+    100052: Bip01 L Finger3
+    100054: Bip01 L Finger31
+    100056: Bip01 L Finger32
+    100058: Bip01 L Finger4
+    100060: Bip01 L Finger41
+    100062: Bip01 L Finger42
+    100064: Bip01 L Foot
+    100066: Bip01 L Forearm
+    100068: Bip01 L Hand
+    100070: Bip01 L Thigh
+    100072: Bip01 L Toe0
+    100074: Bip01 L UpperArm
+    100076: Bip01 Neck
+    100078: Bip01 Pelvis
+    100080: Bip01 R Calf
+    100082: Bip01 R Clavicle
+    100084: Bip01 R Finger0
+    100086: Bip01 R Finger01
+    100088: Bip01 R Finger02
+    100090: Bip01 R Finger1
+    100092: Bip01 R Finger11
+    100094: Bip01 R Finger12
+    100096: Bip01 R Finger2
+    100098: Bip01 R Finger21
+    100100: Bip01 R Finger22
+    100102: Bip01 R Finger3
+    100104: Bip01 R Finger31
+    100106: Bip01 R Finger32
+    100108: Bip01 R Finger4
+    100110: Bip01 R Finger41
+    100112: Bip01 R Finger42
+    100114: Bip01 R Foot
+    100116: Bip01 R Forearm
+    100118: Bip01 R Hand
+    100120: Bip01 R Thigh
+    100122: Bip01 R Toe0
+    100124: Bip01 R UpperArm
+    100126: Bip01 Spine
+    100128: Bip01 Spine1
+    100130: Bip01 Spine2
+    100132: Cup_02
+    100134: CupRamen_Dummy
+    100136: EyeL
+    100138: EyeR
+    100140: hair_incap
+    100142: Jeans
+    100144: //RootNode
+    100146: lower_jaw
+    100148: male_head
+    100150: Shirt
+    100152: shose
+    100154: Chopstick_Dummy
+    100156: Wood_01
+    100158: Wood_02
+    100160: CellPhone_Dummy
+    100162: Cup_003
+    100164: Cup_01
+    100166: GalaxyNote4_Low
+    400000: Bip001 HeadNub
+    400002: Bip001 L Finger0Nub
+    400004: Bip001 L Finger1Nub
+    400006: Bip001 L Finger2Nub
+    400008: Bip001 L Finger3Nub
+    400010: Bip001 L Finger4Nub
+    400012: Bip001 L Toe0Nub
+    400014: Bip001 R Finger0Nub
+    400016: Bip001 R Finger1Nub
+    400018: Bip001 R Finger2Nub
+    400020: Bip001 R Finger3Nub
+    400022: Bip001 R Finger4Nub
+    400024: Bip001 R Toe0Nub
+    400026: Bip01
+    400028: Bip01 Head
+    400030: Bip01 L Calf
+    400032: Bip01 L Clavicle
+    400034: Bip01 L Finger0
+    400036: Bip01 L Finger01
+    400038: Bip01 L Finger02
+    400040: Bip01 L Finger1
+    400042: Bip01 L Finger11
+    400044: Bip01 L Finger12
+    400046: Bip01 L Finger2
+    400048: Bip01 L Finger21
+    400050: Bip01 L Finger22
+    400052: Bip01 L Finger3
+    400054: Bip01 L Finger31
+    400056: Bip01 L Finger32
+    400058: Bip01 L Finger4
+    400060: Bip01 L Finger41
+    400062: Bip01 L Finger42
+    400064: Bip01 L Foot
+    400066: Bip01 L Forearm
+    400068: Bip01 L Hand
+    400070: Bip01 L Thigh
+    400072: Bip01 L Toe0
+    400074: Bip01 L UpperArm
+    400076: Bip01 Neck
+    400078: Bip01 Pelvis
+    400080: Bip01 R Calf
+    400082: Bip01 R Clavicle
+    400084: Bip01 R Finger0
+    400086: Bip01 R Finger01
+    400088: Bip01 R Finger02
+    400090: Bip01 R Finger1
+    400092: Bip01 R Finger11
+    400094: Bip01 R Finger12
+    400096: Bip01 R Finger2
+    400098: Bip01 R Finger21
+    400100: Bip01 R Finger22
+    400102: Bip01 R Finger3
+    400104: Bip01 R Finger31
+    400106: Bip01 R Finger32
+    400108: Bip01 R Finger4
+    400110: Bip01 R Finger41
+    400112: Bip01 R Finger42
+    400114: Bip01 R Foot
+    400116: Bip01 R Forearm
+    400118: Bip01 R Hand
+    400120: Bip01 R Thigh
+    400122: Bip01 R Toe0
+    400124: Bip01 R UpperArm
+    400126: Bip01 Spine
+    400128: Bip01 Spine1
+    400130: Bip01 Spine2
+    400132: Cup_02
+    400134: CupRamen_Dummy
+    400136: EyeL
+    400138: EyeR
+    400140: hair_incap
+    400142: Jeans
+    400144: //RootNode
+    400146: lower_jaw
+    400148: male_head
+    400150: Shirt
+    400152: shose
+    400154: Chopstick_Dummy
+    400156: Wood_01
+    400158: Wood_02
+    400160: CellPhone_Dummy
+    400162: Cup_003
+    400164: Cup_01
+    400166: GalaxyNote4_Low
+    2100000: Standardmaterial [Group14279]
+    2100002: 01 - Default
+    2100004: 02 - Default
+    2100006: Cup_03
+    2100008: Cup_01
+    2100010: face
+    2100012: teeth
+    2100014: tongue
+    2100016: eyelash
+    2100018: Shirt
+    2100020: hands
+    2100022: Jeans
+    2100024: 'Material #903'
+    2300000: Cup_02
+    2300002: EyeL
+    2300004: EyeR
+    2300006: hair_incap
+    2300008: Wood_01
+    2300010: Wood_02
+    2300012: Cup_003
+    2300014: Cup_01
+    2300016: GalaxyNote4_Low
+    3300000: Cup_02
+    3300002: EyeL
+    3300004: EyeR
+    3300006: hair_incap
+    3300008: Wood_01
+    3300010: Wood_02
+    3300012: Cup_003
+    3300014: Cup_01
+    3300016: GalaxyNote4_Low
+    4300000: EyeL
+    4300002: EyeR
+    4300004: hair_incap
+    4300006: Cup_02
+    4300008: male_head
+    4300010: Shirt
+    4300012: Jeans
+    4300014: shose
+    4300016: Wood_01
+    4300018: Wood_02
+    4300020: GalaxyNote4_Low
+    4300022: Cup_003
+    4300024: Cup_01
+    9500000: //RootNode
+    13700000: Jeans
+    13700002: male_head
+    13700004: Shirt
+    13700006: shose
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 704c46dc77abf0e4997d20f956208ef3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 759306bbf2aad5b409168851e5cadd64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cup_01
+    second: {fileID: 2100000, guid: 5ade8262f7ef3624bb9c5fd0f70825d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cup_02
+    second: {fileID: 2100000, guid: c5fd6a7ea1e06f6428a8a93c6d7068b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cup_03
+    second: {fileID: 2100000, guid: 25402a2af86357243a4f19c2eab85dbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GalaxyNote4
+    second: {fileID: 2100000, guid: 559cbbfabde76de4aa2d98205d9e199e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jeans
+    second: {fileID: 2100000, guid: aa49847430615c34dab5464324ab123f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LCD_On
+    second: {fileID: 2100000, guid: 559cbbfabde76de4aa2d98205d9e199e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #903'
+    second: {fileID: 2100000, guid: 0d5b165d104dc6a4094d1bf6f404c6c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #905'
+    second: {fileID: 2100000, guid: 9fb9ee7fba556e040adcab46f48e24d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #906'
+    second: {fileID: 2100000, guid: 9fb9ee7fba556e040adcab46f48e24d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shirt
+    second: {fileID: 2100000, guid: f41906970f81b444393af5d6d63cf286, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standardmaterial [Group14279]
+    second: {fileID: 2100000, guid: 2a6f434d73eeef541b2c0977a6e7bdf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyelash
+    second: {fileID: 2100000, guid: 161838d9909c796489d7cf8c8fc3f35c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face
+    second: {fileID: 2100000, guid: b362b2ee7e3141f4d9b552c1e165b253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hands
+    second: {fileID: 2100000, guid: 37bd330ffa43cba449bdb5dbb2db2d97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teeth
+    second: {fileID: 2100000, guid: 99b03bf42e8bc3144b0b509cf5bb68ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tongue
+    second: {fileID: 2100000, guid: d796ed8a9af97524d8cf7b5a6050bb33, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

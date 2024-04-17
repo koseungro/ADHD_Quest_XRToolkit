@@ -1,0 +1,714 @@
+fileFormatVersion: 2
+guid: 3d060dba1502d504ba57826f2273f53d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: obj_bed_01
+    100002: obj_bed_02
+    100004: obj_bed_04
+    100006: obj_bed_05
+    100008: obj_bed_06
+    100010: Obj_blinder_01
+    100012: Obj_box_01
+    100014: Obj_box_02
+    100016: Obj_calendar
+    100018: Obj_ceiling_01
+    100020: Obj_chair
+    100022: Obj_curtain_01
+    100024: Obj_Desk_005
+    100026: Obj_Desk_006
+    100028: Obj_Desk_007
+    100030: Obj_Desk_01
+    100032: Obj_Desk_02
+    100034: Obj_Desk_03
+    100036: Obj_door_01
+    100038: Obj_door_02
+    100040: Obj_floor_01
+    100042: Obj_furniture_003
+    100044: Obj_furniture_01
+    100046: Obj_furniture_02
+    100048: Obj_Glass_01
+    100050: Obj_hanger_01
+    100052: Obj_Light_01
+    100054: Obj_Monitor_01
+    100056: Obj_Pic_002
+    100058: Obj_Pic_006
+    100060: Obj_Pic_01
+    100062: Obj_Pic_03
+    100064: Obj_Pic_04
+    100066: Obj_Pic_05
+    100068: Obj_Pic_07
+    100070: Obj_Pic_08
+    100072: Obj_Pic_09
+    100074: Obj_Pin_01
+    100076: Obj_Pin_02
+    100078: Obj_Pin_03
+    100080: Obj_Pin_04
+    100082: Obj_Pin_05
+    100084: Obj_Pin_06
+    100086: Obj_Pin_07
+    100088: Obj_Pin_08
+    100090: Obj_Pin_09
+    100092: Obj_poster_01
+    100094: Obj_screen_01
+    100096: Obj_waste_01
+    100098: Obj_Window_01
+    100100: Obj_Window_02
+    100102: Obj_window_03
+    100104: //RootNode
+    100106: Wall
+    100108: Board
+    100110: GalaxyNote4_Low
+    100112: Light
+    100114: Object001
+    100116: Object002
+    100118: Object003
+    100120: Object004
+    100122: Out_Celling
+    100124: Out_Wall_01
+    100126: Out_Wall_02
+    100128: Out_Celling001
+    400000: obj_bed_01
+    400002: obj_bed_02
+    400004: obj_bed_04
+    400006: obj_bed_05
+    400008: obj_bed_06
+    400010: Obj_blinder_01
+    400012: Obj_box_01
+    400014: Obj_box_02
+    400016: Obj_calendar
+    400018: Obj_ceiling_01
+    400020: Obj_chair
+    400022: Obj_curtain_01
+    400024: Obj_Desk_005
+    400026: Obj_Desk_006
+    400028: Obj_Desk_007
+    400030: Obj_Desk_01
+    400032: Obj_Desk_02
+    400034: Obj_Desk_03
+    400036: Obj_door_01
+    400038: Obj_door_02
+    400040: Obj_floor_01
+    400042: Obj_furniture_003
+    400044: Obj_furniture_01
+    400046: Obj_furniture_02
+    400048: Obj_Glass_01
+    400050: Obj_hanger_01
+    400052: Obj_Light_01
+    400054: Obj_Monitor_01
+    400056: Obj_Pic_002
+    400058: Obj_Pic_006
+    400060: Obj_Pic_01
+    400062: Obj_Pic_03
+    400064: Obj_Pic_04
+    400066: Obj_Pic_05
+    400068: Obj_Pic_07
+    400070: Obj_Pic_08
+    400072: Obj_Pic_09
+    400074: Obj_Pin_01
+    400076: Obj_Pin_02
+    400078: Obj_Pin_03
+    400080: Obj_Pin_04
+    400082: Obj_Pin_05
+    400084: Obj_Pin_06
+    400086: Obj_Pin_07
+    400088: Obj_Pin_08
+    400090: Obj_Pin_09
+    400092: Obj_poster_01
+    400094: Obj_screen_01
+    400096: Obj_waste_01
+    400098: Obj_Window_01
+    400100: Obj_Window_02
+    400102: Obj_window_03
+    400104: //RootNode
+    400106: Wall
+    400108: Board
+    400110: GalaxyNote4_Low
+    400112: Light
+    400114: Object001
+    400116: Object002
+    400118: Object003
+    400120: Object004
+    400122: Out_Celling
+    400124: Out_Wall_01
+    400126: Out_Wall_02
+    400128: Out_Celling001
+    2300000: obj_bed_01
+    2300002: obj_bed_02
+    2300004: obj_bed_04
+    2300006: obj_bed_05
+    2300008: obj_bed_06
+    2300010: Obj_blinder_01
+    2300012: Obj_box_01
+    2300014: Obj_box_02
+    2300016: Obj_calendar
+    2300018: Obj_ceiling_01
+    2300020: Obj_chair
+    2300022: Obj_curtain_01
+    2300024: Obj_Desk_006
+    2300026: Obj_Desk_007
+    2300028: Obj_Desk_01
+    2300030: Obj_Desk_02
+    2300032: Obj_door_01
+    2300034: Obj_door_02
+    2300036: Obj_floor_01
+    2300038: Obj_furniture_003
+    2300040: Obj_furniture_01
+    2300042: Obj_furniture_02
+    2300044: Obj_Glass_01
+    2300046: Obj_hanger_01
+    2300048: Obj_Light_01
+    2300050: Obj_Monitor_01
+    2300052: Obj_Pic_002
+    2300054: Obj_Pic_006
+    2300056: Obj_Pic_01
+    2300058: Obj_Pic_03
+    2300060: Obj_Pic_04
+    2300062: Obj_Pic_05
+    2300064: Obj_Pic_07
+    2300066: Obj_Pic_08
+    2300068: Obj_Pic_09
+    2300070: Obj_Pin_01
+    2300072: Obj_Pin_02
+    2300074: Obj_Pin_03
+    2300076: Obj_Pin_04
+    2300078: Obj_Pin_05
+    2300080: Obj_Pin_06
+    2300082: Obj_Pin_07
+    2300084: Obj_Pin_08
+    2300086: Obj_Pin_09
+    2300088: Obj_poster_01
+    2300090: Obj_screen_01
+    2300092: Obj_waste_01
+    2300094: Obj_Window_01
+    2300096: Obj_Window_02
+    2300098: Obj_window_03
+    2300100: Wall
+    2300102: Board
+    2300104: GalaxyNote4_Low
+    2300106: Light
+    2300108: Object001
+    2300110: Object002
+    2300112: Object003
+    2300114: Object004
+    2300116: Out_Celling
+    2300118: Out_Wall_01
+    2300120: Out_Wall_02
+    2300122: Out_Celling001
+    3300000: obj_bed_01
+    3300002: obj_bed_02
+    3300004: obj_bed_04
+    3300006: obj_bed_05
+    3300008: obj_bed_06
+    3300010: Obj_blinder_01
+    3300012: Obj_box_01
+    3300014: Obj_box_02
+    3300016: Obj_calendar
+    3300018: Obj_ceiling_01
+    3300020: Obj_chair
+    3300022: Obj_curtain_01
+    3300024: Obj_Desk_006
+    3300026: Obj_Desk_007
+    3300028: Obj_Desk_01
+    3300030: Obj_Desk_02
+    3300032: Obj_door_01
+    3300034: Obj_door_02
+    3300036: Obj_floor_01
+    3300038: Obj_furniture_003
+    3300040: Obj_furniture_01
+    3300042: Obj_furniture_02
+    3300044: Obj_Glass_01
+    3300046: Obj_hanger_01
+    3300048: Obj_Light_01
+    3300050: Obj_Monitor_01
+    3300052: Obj_Pic_002
+    3300054: Obj_Pic_006
+    3300056: Obj_Pic_01
+    3300058: Obj_Pic_03
+    3300060: Obj_Pic_04
+    3300062: Obj_Pic_05
+    3300064: Obj_Pic_07
+    3300066: Obj_Pic_08
+    3300068: Obj_Pic_09
+    3300070: Obj_Pin_01
+    3300072: Obj_Pin_02
+    3300074: Obj_Pin_03
+    3300076: Obj_Pin_04
+    3300078: Obj_Pin_05
+    3300080: Obj_Pin_06
+    3300082: Obj_Pin_07
+    3300084: Obj_Pin_08
+    3300086: Obj_Pin_09
+    3300088: Obj_poster_01
+    3300090: Obj_screen_01
+    3300092: Obj_waste_01
+    3300094: Obj_Window_01
+    3300096: Obj_Window_02
+    3300098: Obj_window_03
+    3300100: Wall
+    3300102: Board
+    3300104: GalaxyNote4_Low
+    3300106: Light
+    3300108: Object001
+    3300110: Object002
+    3300112: Object003
+    3300114: Object004
+    3300116: Out_Celling
+    3300118: Out_Wall_01
+    3300120: Out_Wall_02
+    3300122: Out_Celling001
+    4300000: Obj_furniture_02
+    4300002: Obj_furniture_01
+    4300004: Obj_curtain_01
+    4300006: Obj_blinder_01
+    4300008: Obj_Glass_01
+    4300010: Obj_ceiling_01
+    4300012: Obj_Light_01
+    4300014: Obj_floor_01
+    4300016: Obj_waste_01
+    4300018: Obj_poster_01
+    4300020: Obj_Pic_006
+    4300022: Obj_Pin_09
+    4300024: Obj_Pic_09
+    4300026: Obj_Pin_01
+    4300028: Obj_Pic_08
+    4300030: Obj_Pin_05
+    4300032: Obj_Pic_04
+    4300034: Obj_Pin_04
+    4300036: Obj_Pic_07
+    4300038: Obj_Pin_03
+    4300040: Obj_Pic_002
+    4300042: Obj_Pin_02
+    4300044: Obj_Pic_03
+    4300046: Obj_Pin_06
+    4300048: Obj_Pic_05
+    4300050: Obj_Pin_08
+    4300052: Obj_Pic_01
+    4300054: Obj_Pin_07
+    4300056: Obj_chair
+    4300058: Obj_Desk_01
+    4300060: Obj_calendar
+    4300062: Obj_Monitor_01
+    4300064: Obj_screen_01
+    4300066: Obj_Desk_02
+    4300068: Obj_Desk_006
+    4300070: Obj_hanger_01
+    4300072: Obj_box_02
+    4300074: Obj_box_01
+    4300076: Wall
+    4300078: Obj_door_01
+    4300080: Obj_door_02
+    4300082: Obj_furniture_003
+    4300084: Obj_window_03
+    4300086: Obj_Window_02
+    4300088: Obj_Window_01
+    4300090: obj_bed_06
+    4300092: obj_bed_05
+    4300094: obj_bed_02
+    4300096: obj_bed_04
+    4300098: obj_bed_01
+    4300100: Obj_Desk_007
+    4300102: GalaxyNote4_Low
+    4300104: Object001
+    4300106: Object002
+    4300108: Object003
+    4300110: Object004
+    4300112: Board
+    4300114: Light
+    4300116: Out_Wall_01
+    4300118: Out_Wall_02
+    4300120: Out_Celling
+    4300122: Out_Celling001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: faf629ef8aa3e074fa69f5636f5a3ca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Furniture_Handle
+    second: {fileID: 2100000, guid: 1291c726af853c84abbaf34c5a2eed49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Desk_01
+    second: {fileID: 2100000, guid: 70fc9ea78f24f0140ad8a251ca16cfab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Desk_02
+    second: {fileID: 2100000, guid: 6c9fadd15b6566f42a419385c71b440c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Desk_02_1
+    second: {fileID: 2100000, guid: 4f2b2f2c5b6aa7e44bca0dce24f49308, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Desk_04
+    second: {fileID: 2100000, guid: c92c6a132baee284ebc2fcd6d32769f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Glass_01
+    second: {fileID: 2100000, guid: 10f1e3f03a47de44b810469ebb85e9a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Glass_02
+    second: {fileID: 2100000, guid: ae3eb70cb6d67414cba21d3afd303f81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Light_01
+    second: {fileID: 2100000, guid: ee56a7d5fc21e8348b64603a7e293878, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Light_02
+    second: {fileID: 2100000, guid: 8b01eca867644a841bf2ab95b07c5860, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Light_03
+    second: {fileID: 2100000, guid: e54280f53e7a1e148bdb3e6ebcfdf48d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pic_00
+    second: {fileID: 2100000, guid: c5e6131dda2aec44da5a84208cbd7d70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pic_01
+    second: {fileID: 2100000, guid: 3905ab991e14ee84e8bd34fae45ad85e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pic_02
+    second: {fileID: 2100000, guid: dacd01d0f771a904b9861a39dd24eb48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pic_03
+    second: {fileID: 2100000, guid: 99efc3ccf581e214182aa19e8d53a1c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pic_04
+    second: {fileID: 2100000, guid: 033641eb2a296594db10cf30dc070a74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pic_05
+    second: {fileID: 2100000, guid: ddaf736abba9e974c98063c01078adba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pic_06
+    second: {fileID: 2100000, guid: 7fe6eba59398dbf4c997919986e58602, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pic_07
+    second: {fileID: 2100000, guid: 1f359bfdae013984481788fe6d41af78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pic_08
+    second: {fileID: 2100000, guid: b3d4884432f9fc94c933fd70d2d2cdd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pic_09
+    second: {fileID: 2100000, guid: 1142e270d8c91fb42a4c57828bbea71b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pin_01
+    second: {fileID: 2100000, guid: 9341015affd59634c9eecbcb4aeefa88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pin_02
+    second: {fileID: 2100000, guid: 08c79c9586298fe4580367c10c44c561, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pin_03
+    second: {fileID: 2100000, guid: 936f4eae5afd8db4f8a9607fc5738203, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pin_04
+    second: {fileID: 2100000, guid: b5461ba4fa2934b419fd62f9e7abdfee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_bed_01
+    second: {fileID: 2100000, guid: 8e431e2dcd5ed3442b56a2358f3feb3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_bed_02
+    second: {fileID: 2100000, guid: 6a5153fe5b3a86145ab60f2c8fc8de30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_bed_03
+    second: {fileID: 2100000, guid: daffd957a879fb6489d031ad0a0d5489, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_bed_04
+    second: {fileID: 2100000, guid: 8e431e2dcd5ed3442b56a2358f3feb3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_bed_05
+    second: {fileID: 2100000, guid: 65163f198a049764b981dc5e0f97e058, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_blinder_01
+    second: {fileID: 2100000, guid: 921b9cd4f9e16674b8670936b009dee6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_box_01
+    second: {fileID: 2100000, guid: b49237244bbfb4449b0bbf70d1e7d9bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_box_02
+    second: {fileID: 2100000, guid: 129ace3d60e477c4bbef095902afb928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_calendar
+    second: {fileID: 2100000, guid: 28ed73bb3fa2f3a4988b128afb24f3d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_ceiling_01
+    second: {fileID: 2100000, guid: 75122c2a351fa864891692e5509ca60b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_ceiling_02
+    second: {fileID: 2100000, guid: faf32d98b6a428f4b995a4b8e8e45c57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_chair_01
+    second: {fileID: 2100000, guid: d309f54dc7b6cc34f92d5f19735bc93b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_chair_02
+    second: {fileID: 2100000, guid: 9198bfefe8239bb48ad4d6573dcdd334, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_chair_03
+    second: {fileID: 2100000, guid: ea01706ae374a354a8ead25e46bbfb6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_chair_04
+    second: {fileID: 2100000, guid: c8f25d9f51435ab40854247342250cc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_chair_05
+    second: {fileID: 2100000, guid: 69b17033386575b4ba21c72202535932, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_chair_06
+    second: {fileID: 2100000, guid: 4ba9edfd8ef616a42b6904e9e156453d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_curtain_01
+    second: {fileID: 2100000, guid: eeecd995195aeed4a85e735a387ff1fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_door_01
+    second: {fileID: 2100000, guid: 73e6df6d7ce09dd4f9332278df18f08d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_door_02
+    second: {fileID: 2100000, guid: 5a61e596db6eab5448e69e9c1be8d868, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_door_03
+    second: {fileID: 2100000, guid: 3a903376992efee41a195dc153f4c3a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_floor_01
+    second: {fileID: 2100000, guid: 63ed525e6132edb4aac62949e1bad138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_furniture_01_1
+    second: {fileID: 2100000, guid: 007a053ccfc2c504d86981282c9fc3f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_furniture_01_2
+    second: {fileID: 2100000, guid: 57796eb5bea307f4f92564619331c409, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_furniture_02_1
+    second: {fileID: 2100000, guid: c9b6444682225684995b80500648db57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_furniture_02_2
+    second: {fileID: 2100000, guid: 987e902f412913b46afbb97c864d7910, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_hanger_01_1
+    second: {fileID: 2100000, guid: c6abafbb29c6b514b9da1c6a66cb53b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_hanger_01_2
+    second: {fileID: 2100000, guid: 02ad91a975bc6244382424f2ba778150, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_monitor_01
+    second: {fileID: 2100000, guid: dd3e1846e5a28c146aa05fba040999a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_monitor_02
+    second: {fileID: 2100000, guid: f8e553c9bf6ef6145b75ba842f52197b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_poster_01
+    second: {fileID: 2100000, guid: c1c1bd46b66b74246977f50de05f79c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_room_02
+    second: {fileID: 2100000, guid: 7d0250602636d3b469459b7ac797512a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_screen_01
+    second: {fileID: 2100000, guid: 20c2ecf8cdbe24e46a7e25f78c42ab7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_waste_01
+    second: {fileID: 2100000, guid: 25e302379032495438511ef435ff541c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_waste_02
+    second: {fileID: 2100000, guid: 47af54ed8090f5b48adf5486aa5098f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #23578'
+    second: {fileID: 2100000, guid: 63ed525e6132edb4aac62949e1bad138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Phone
+    second: {fileID: 2100000, guid: 0bd924cb728b86944bc463e92131ca2e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

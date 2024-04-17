@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: a1a6ebec79807a14caf9d9cc2c90017a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Form56
+    100002: //RootNode
+    100004: Obj_book_etc_01
+    100006: Obj_book_etc_012
+    100008: Obj_book_etc_014
+    100010: Obj_book_etc_015
+    100012: Obj_book_etc_02
+    100014: Obj_book_etc_03
+    100016: Obj_book_work_01
+    100018: Obj_book_work_04
+    100020: Obj_Desk_01
+    100022: Obj_Desk_03
+    100024: Obj_note_01
+    100026: Obj_pen_02
+    100028: Obj_pen_02(1)
+    100030: Obj_pencil_box
+    100032: Obj_book_etc_05
+    100034: Obj_book_etc_11
+    100036: Obj_book_work_03
+    100038: Obj_pen_02(1)001
+    400000: Form56
+    400002: //RootNode
+    400004: Obj_book_etc_01
+    400006: Obj_book_etc_012
+    400008: Obj_book_etc_014
+    400010: Obj_book_etc_015
+    400012: Obj_book_etc_02
+    400014: Obj_book_etc_03
+    400016: Obj_book_work_01
+    400018: Obj_book_work_04
+    400020: Obj_Desk_01
+    400022: Obj_Desk_03
+    400024: Obj_note_01
+    400026: Obj_pen_02
+    400028: Obj_pen_02(1)
+    400030: Obj_pencil_box
+    400032: Obj_book_etc_05
+    400034: Obj_book_etc_11
+    400036: Obj_book_work_03
+    400038: Obj_pen_02(1)001
+    2300000: Form56
+    2300002: Obj_book_etc_01
+    2300004: Obj_book_etc_012
+    2300006: Obj_book_etc_014
+    2300008: Obj_book_etc_015
+    2300010: Obj_book_etc_02
+    2300012: Obj_book_etc_03
+    2300014: Obj_book_work_01
+    2300016: Obj_book_work_04
+    2300018: Obj_note_01
+    2300020: Obj_pen_02
+    2300022: Obj_pen_02(1)
+    2300024: Obj_book_etc_05
+    2300026: Obj_book_etc_11
+    2300028: Obj_book_work_03
+    2300030: Obj_pen_02(1)001
+    3300000: Form56
+    3300002: Obj_book_etc_01
+    3300004: Obj_book_etc_012
+    3300006: Obj_book_etc_014
+    3300008: Obj_book_etc_015
+    3300010: Obj_book_etc_02
+    3300012: Obj_book_etc_03
+    3300014: Obj_book_work_01
+    3300016: Obj_book_work_04
+    3300018: Obj_note_01
+    3300020: Obj_pen_02
+    3300022: Obj_pen_02(1)
+    3300024: Obj_book_etc_05
+    3300026: Obj_book_etc_11
+    3300028: Obj_book_work_03
+    3300030: Obj_pen_02(1)001
+    4300000: Obj_book_etc_01
+    4300002: Obj_book_etc_02
+    4300004: Obj_book_etc_03
+    4300006: Obj_book_etc_012
+    4300008: Obj_book_etc_014
+    4300010: Obj_book_etc_015
+    4300012: Obj_pen_02
+    4300014: Obj_pen_02(1)
+    4300016: Obj_book_work_04
+    4300018: Obj_book_work_01
+    4300020: Obj_note_01
+    4300022: Form56
+    4300024: Obj_book_etc_05
+    4300026: Obj_book_etc_11
+    4300028: Obj_pen_02(1)001
+    4300030: Obj_book_work_03
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 23 - Default
+    second: {fileID: 2100000, guid: 452fb5af98526144dbe3004400803ed6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Book_03
+    second: {fileID: 2100000, guid: f5c23d2ace8db0743bb32a3934f99daa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Book_04
+    second: {fileID: 2100000, guid: cdba5c8f09a1b5f459c577e385943571, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Book_08
+    second: {fileID: 2100000, guid: 5a6070b9e5abfc347859dad3d3b4a8df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Book_10
+    second: {fileID: 2100000, guid: 15f05bf5d1115b94aa757c32a0171536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Book_page
+    second: {fileID: 2100000, guid: fc8419ccb5f93b24b877c4fc033d0879, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Note_00
+    second: {fileID: 2100000, guid: ce64e585583e3a54db2e39b3bda2704e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Note_01
+    second: {fileID: 2100000, guid: b1deb86925679794f9b992397f4bc976, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Note_02
+    second: {fileID: 2100000, guid: 5fd1c65919ab0f545920b7fb18ef54fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Note_03
+    second: {fileID: 2100000, guid: 299fcbea1445b954aa637e524453c029, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pen_02_1
+    second: {fileID: 2100000, guid: 0ef665baccbd27947bdd5e87fcfaff22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pen_02_3
+    second: {fileID: 2100000, guid: 11488ff8bfc7cf64c96011a7947570d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Pen_02_4
+    second: {fileID: 2100000, guid: dc4486271bc8abc44af5e132dc3b970d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pen
+    second: {fileID: 2100000, guid: e65784447bdde7c4e8a4c6b9b0bc1157, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: 1a16d313e5c99734a90acb117a0851fa, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
