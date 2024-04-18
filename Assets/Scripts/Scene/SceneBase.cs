@@ -749,6 +749,7 @@ public class SceneBase : MonoBehaviour
         CalcScore();
         CommitButton.dummyInteractable = false;
         CommitButton.Interactable = false;
+        Debug.Log($"Interactable : <color=cyan>{CommitButton.dummyInteractable}/ {CommitButton.Interactable} </color>");
         if (DataManager.Inst.isServer)
         {
             slider = EndSession.transform.Find("Slider").GetComponent<SliderFunc>();
@@ -760,6 +761,7 @@ public class SceneBase : MonoBehaviour
     {
         CommitButton.dummyInteractable = true;
         CommitButton.Interactable = true;
+        Debug.Log($"Interactable : <color=cyan>{CommitButton.dummyInteractable}/ {CommitButton.Interactable} </color>");
 
         Debug.Log("<color=yellow> 2024.04.16 주석 처리</color>");
 
@@ -2148,13 +2150,13 @@ public class SceneBase : MonoBehaviour
         //{
         //    Debug.Log("========================== Pressed BackButton ==========================");
 
-        //    if (SceneManager.GetActiveScene().name == "SceneMain")
-        //        Debug.Log("<color=red>SceneMain이 활성화 되어있어 뒤로가기 기능을 실행하지 않습니다.</color>");
-        //    else
-        //    {
-        //        ReservationBackButtonFunc();
-        //        SendMessageFromServer("GoToBackTitle");
-        //    }
+        //if (SceneManager.GetActiveScene().name == "SceneMain")
+        //    Debug.Log("<color=red>SceneMain이 활성화 되어있어 뒤로가기 기능을 실행하지 않습니다.</color>");
+        //else
+        //{
+        //    ReservationBackButtonFunc();
+        //    SendMessageFromServer("GoToBackTitle");
+        //}
         //}
 
         if (Input.GetKeyDown(KeyCode.Space))

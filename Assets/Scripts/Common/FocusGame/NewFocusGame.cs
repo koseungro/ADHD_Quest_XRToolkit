@@ -6,6 +6,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using FNI.XR;
 
 public enum FocusGameProgressState
 {
@@ -308,6 +309,9 @@ public class NewFocusGame : MonoBehaviour
     /// 카운트 다운 코루틴
     /// </summary>
     private IEnumerator CountDown;
+
+    public bool TriggerPressed { get => triggerPressed; set => triggerPressed = value; }
+    private bool triggerPressed = false;
 
     private void Update()
     {
@@ -625,26 +629,29 @@ public class NewFocusGame : MonoBehaviour
     private void PressCheck()
     {
         // 버튼을 눌렀을 때 체크
-        if (true) 
+        if (XRManager.Instance.RightTriggerPressed)
         {
-            Debug.Log("<color=yellow> 2024.04.16 수정 필요</color>");
+            if (triggerPressed != true)
+            {
+                triggerPressed = true;
 
-            // 버튼 클릭음 재생
-            audioSource.clip = ClickSound;
-            audioSource.Play();
+                // 버튼 클릭음 재생
+                audioSource.clip = ClickSound;
+                audioSource.Play();
 
-            // 이미 한번 눌렀으면 return
-            if (isPressed)
-                return;
+                // 이미 한번 눌렀으면 return
+                if (isPressed)
+                    return;
 
-            isPressed = true;
-            if (isPractice)
-                isOneCycle = true;
-            // 버튼을 눌렀을 때 시간 Set
-            PushButtonTime = DateTime.Now;
-            // 시간 차이 
-            deltaTime = PushButtonTime - ShowFigureTime;
-            ReActionTime = (float)deltaTime.TotalMilliseconds;
+                isPressed = true;
+                if (isPractice)
+                    isOneCycle = true;
+                // 버튼을 눌렀을 때 시간 Set
+                PushButtonTime = DateTime.Now;
+                // 시간 차이 
+                deltaTime = PushButtonTime - ShowFigureTime;
+                ReActionTime = (float)deltaTime.TotalMilliseconds;
+            }
         }
     }
 
@@ -853,13 +860,13 @@ public class NewFocusGame : MonoBehaviour
         }
         else
         {
-            Debug.Log($"<color=yellow>{FigureIndex}/ {indexList.Count-1}</color>");
+            Debug.Log($"<color=yellow>{FigureIndex}/ {indexList.Count - 1}</color>");
             if (FigureIndex == indexList.Count - 1)
                 EndGame();
             else
                 mFocusState = FocusGameProgressState.INIT_TIME;
 
-            if (FigureIndex < indexList.Count-1) // 2024.03.27 Index 오류로 수정
+            if (FigureIndex < indexList.Count - 1) // 2024.03.27 Index 오류로 수정
                 FigureIndex++;
             else
                 FigureIndex = 0;
@@ -894,7 +901,7 @@ public class NewFocusGame : MonoBehaviour
     /// </summary>
     private void FindObjects()
     {
-        if(alterImage == null)
+        if (alterImage == null)
             alterImage = transform.Find("Practice/AlertTextImage2").GetComponent<Image>();
         if (ShowImage == null)
             ShowImage = transform.Find("Tablet/Image").GetComponent<Image>();

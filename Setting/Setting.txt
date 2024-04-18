@@ -1,0 +1,2 @@
+TargetCount=100
+AcceptContinuousTarget=true

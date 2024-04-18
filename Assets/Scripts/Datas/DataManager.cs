@@ -46,7 +46,7 @@ public class DataManager : Singleton<DataManager> {
     /// 2019.05.15 
     /// 현재 디바이스가 서버인지 체크
     /// </summary>
-    public bool isServer = false;
+    public bool isServer = true;
 
     /// <summary>
     /// 2019.06.24

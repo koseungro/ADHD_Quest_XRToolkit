@@ -96,7 +96,7 @@ public class SceneRoom : SceneBase
         // 나레이션 나오는 도중에        
         UIManager.Inst.PlayNarration(UIManager.Inst.FindNarration("ad_03R_2"));
 
-        UIManager.Inst.ShowNarrationText("You're wondering about the N-back traininng. You'll see different alphabets appear on the screen one by one.\n"+
+        UIManager.Inst.ShowNarrationText("You're wondering about the N-back traininng.\n You'll see different alphabets appear on the screen one by one.\n"+
 "There are no rules about the order in which they appear.", 0, 280.0f, 0);
 
         UIManager.Inst.WaitSeconds(11.7f, delegate { UIManager.Inst.ShowNarrationText("However, look carefully at the alphabet as shown now.\nYou must press the trigger button the second time it matches the alphabet that appeared before."); });

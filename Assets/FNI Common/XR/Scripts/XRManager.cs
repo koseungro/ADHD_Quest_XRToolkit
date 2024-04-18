@@ -13,6 +13,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.UI;
 using FNI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 namespace FNI.XR
 {
@@ -254,7 +255,9 @@ namespace FNI.XR
         // connect name: 'Oculus Touch Controller - Left', role: 'HeldInHand, TrackedDevice, Controller, Left'
         // connect name: 'Oculus Touch Controller - Right', role: 'HeldInHand, TrackedDevice, Controller, Right'
 
-        public GameObject controllerWidget;
+        private SceneBase curSceneBase;
+        private NewFocusGame newFocusGame;
+
 
 #if UNITY_EDITOR
         private void Reset()
@@ -279,6 +282,17 @@ namespace FNI.XR
             {
                 rightController.EnableUITouch();
             }
+
+            if (FindObjectOfType<SceneBase>())
+                curSceneBase = FindObjectOfType<SceneBase>();
+            else
+                Debug.LogError($"SceneBase를 찾지 못하였습니다.");
+
+            if (FindObjectOfType<NewFocusGame>())
+                newFocusGame = FindObjectOfType<NewFocusGame>();
+            else
+                Debug.LogError($"NewFocusGame을 찾지 못하였습니다.");
+
         }
 
         // 각종 이벤트 연결하기
@@ -331,9 +345,10 @@ namespace FNI.XR
 
         private void Update()
         {
-            if (UITouchController != HandType.None)
-                SleepControllerLine();
+            //if (UITouchController != HandType.None)
+            //    SleepControllerLine();
 
+            GetRightInput();
             //GetInput();
 
             //if(rightController.xrController.activateAction.action.IsPressed())
@@ -934,9 +949,11 @@ namespace FNI.XR
         private bool leftJoystickPressed = false;
         private bool leftButtonTouched = false;
 
+        public bool RightTriggerPressed { get => rightTriggerPressed; }
         private bool rightTriggerPressed = false;
         private bool rightGripPressed = false;
         private bool rightJoystickPressed = false;
+        private bool rightButtonPressed = false;
         private bool rightButtonTouched = false;
 
         /// <summary>
@@ -946,6 +963,60 @@ namespace FNI.XR
 
 
         #region 테스트 코드 - 컨트롤러 키 입력 확인
+        private void GetRightInput()
+        {
+            // Float: Axis Range 0 ~ 1
+            // Vector2: Touchpad 움직임 -1 ~ 1
+            var rightHandDevices = new List<UnityEngine.XR.InputDevice>();
+            UnityEngine.XR.InputDevices.GetDevicesAtXRNode(UnityEngine.XR.XRNode.RightHand, rightHandDevices);
+            foreach (var device in rightHandDevices)
+            {
+
+                // primaryButton(Button)  : [X/A] - 푸시
+                if (device.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButton) && primaryButton)
+                {
+                    if (rightButtonPressed != true)
+                    {
+                        rightButtonPressed = true;
+
+                        Debug.Log("========================== Pressed BackButton ==========================");
+
+                        if (SceneManager.GetActiveScene().name == "SceneMain")
+                            Debug.Log("<color=red>SceneMain이 활성화 되어있어 뒤로가기 기능을 실행하지 않습니다.</color>");
+                        else
+                        {
+                            curSceneBase.ReservationBackButtonFunc();
+                            //SendMessageFromServer("GoToBackTitle");
+                        }
+                    }
+                }
+                else
+                    rightButtonPressed = false;
+
+
+
+                // triggerButton(Button) : 트리거(Trigger) - 누름(Press) => 대략 triggerAmount가 0.5f 이상일 때 true
+                if (device.TryGetFeatureValue(CommonUsages.triggerButton, out bool triggerButton) && triggerButton)
+                {
+                    if (rightTriggerPressed != true)
+                    {
+                        rightTriggerPressed = true;
+
+                    }
+                }
+                else
+                {
+                    rightTriggerPressed = false;
+
+                    if (newFocusGame != null)
+                        newFocusGame.TriggerPressed = false;
+                }
+
+
+
+                // userPresence(Button) : User presence
+            }
+        }
 
         /// <summary>
         /// InputDevice 입력 상태 얻기 https://docs.unity3d.com/Manual/xr_input.html
