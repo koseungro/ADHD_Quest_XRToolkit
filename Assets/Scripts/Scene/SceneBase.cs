@@ -749,7 +749,6 @@ public class SceneBase : MonoBehaviour
         CalcScore();
         CommitButton.dummyInteractable = false;
         CommitButton.Interactable = false;
-        Debug.Log($"Interactable : <color=cyan>{CommitButton.dummyInteractable}/ {CommitButton.Interactable} </color>");
         if (DataManager.Inst.isServer)
         {
             slider = EndSession.transform.Find("Slider").GetComponent<SliderFunc>();
@@ -761,7 +760,6 @@ public class SceneBase : MonoBehaviour
     {
         CommitButton.dummyInteractable = true;
         CommitButton.Interactable = true;
-        Debug.Log($"Interactable : <color=cyan>{CommitButton.dummyInteractable}/ {CommitButton.Interactable} </color>");
 
         Debug.Log("<color=yellow> 2024.04.16 주석 처리</color>");
 
@@ -1889,7 +1887,7 @@ public class SceneBase : MonoBehaviour
     /// <returns></returns>
     IEnumerator FindAsyncClient()
     {
-        Debug.Log("<color=yellow> 2024.04.16 주석 처리</color>");
+        Debug.Log("<color=yellow>[FindAsyncClient] 2024.04.16 주석 처리</color>");
         yield return null;
         //while (true)
         //{
@@ -1987,7 +1985,7 @@ public class SceneBase : MonoBehaviour
     /// </summary>
     protected IEnumerator SendCompleteSceneLoaded()
     {
-        Debug.Log("<color=yellow> 2024.04.16 주석 처리</color>");
+        Debug.Log("<color=yellow>[SendCompleteSceneLoaded] 2024.04.16 주석 처리</color>");
 
         // 연결을 안하고 시작하면 종료
         if (DataManager.Inst.isPassConnect) yield break;

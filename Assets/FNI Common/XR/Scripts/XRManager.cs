@@ -286,12 +286,13 @@ namespace FNI.XR
             if (FindObjectOfType<SceneBase>())
                 curSceneBase = FindObjectOfType<SceneBase>();
             else
-                Debug.LogError($"SceneBase를 찾지 못하였습니다.");
+                Debug.Log($"<color=red>[{SceneManager.GetActiveScene().name}]</color> SceneBase를 찾지 못하였습니다.");
 
             if (FindObjectOfType<NewFocusGame>())
                 newFocusGame = FindObjectOfType<NewFocusGame>();
             else
-                Debug.LogError($"NewFocusGame을 찾지 못하였습니다.");
+                Debug.Log($"<color=red>[{SceneManager.GetActiveScene().name}]</color> NewFocusGame을 찾지 못하였습니다.");
+
 
         }
 
@@ -307,22 +308,26 @@ namespace FNI.XR
             uiInputModule.pointerClick += OnPointerClick;
 
             // 각 컨트롤러의 이벤트 연결
-            leftController.controller.OnThumbstickDown.AddListener(OnLeftThumbstickDown);
-            leftController.controller.OnUpdateThumbstick.AddListener(OnUpdateLeftThumbstick);
-            leftController.controller.OnThumbstickUp.AddListener(OnLeftThumbstickUp);
+            //if (leftController.target.activeInHierarchy)
+            //{
+            //    leftController.controller.OnThumbstickDown.AddListener(OnLeftThumbstickDown);
+            //    leftController.controller.OnUpdateThumbstick.AddListener(OnUpdateLeftThumbstick);
+            //    leftController.controller.OnThumbstickUp.AddListener(OnLeftThumbstickUp);
+            //    leftController.controller.OnTriggerUp.AddListener(OnLeftTriggerUp);
+            //    leftController.controller.OnPrimaryButtonDown.AddListener(OnLeftPrimaryButtonDown);
+            //    leftController.controller.OnSecondaryButtonDown.AddListener(OnLeftSecondaryButtonDown);
+
+            //}
 
             rightController.controller.OnThumbstickDown.AddListener(OnRightThumbstickDown);
             rightController.controller.OnUpdateThumbstick.AddListener(OnUpdateRightThumbstick);
             rightController.controller.OnThumbstickUp.AddListener(OnRightThumbstickUp);
-
-            leftController.controller.OnTriggerUp.AddListener(OnLeftTriggerUp);
             rightController.controller.OnTriggerUp.AddListener(OnRightTriggerUp);
-
-            leftController.controller.OnPrimaryButtonDown.AddListener(OnLeftPrimaryButtonDown);
-            leftController.controller.OnSecondaryButtonDown.AddListener(OnLeftSecondaryButtonDown);
-
             rightController.controller.OnPrimaryButtonDown.AddListener(OnRightPrimaryButtonDown);
             rightController.controller.OnSecondaryButtonDown.AddListener(OnRightSecondaryButtonDown);
+
+
+
         }
 
         // 각종 이벤트 연결해제하기
@@ -337,7 +342,9 @@ namespace FNI.XR
             uiInputModule.pointerClick -= OnPointerClick;
 
             // 각 컨트롤러의 이벤트 연결해제
-            leftController.controller.RemoveAllListeners();
+            //if (leftController.target.activeInHierarchy)
+            //    leftController.controller.RemoveAllListeners();
+
             rightController.controller.RemoveAllListeners();
         }
 

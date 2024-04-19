@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
-public class VideoController : MonoBehaviour {
+public class VideoController : MonoBehaviour
+{
 
     /// <summary>
     /// Unity Player
@@ -104,7 +105,7 @@ public class VideoController : MonoBehaviour {
         if (player.isPlaying)
         {
             player.Pause();
-            if(isFirstStart)
+            if (isFirstStart)
             {
                 player.time = 0;
             }
@@ -129,29 +130,29 @@ public class VideoController : MonoBehaviour {
     /// </summary>
     public void StopVideoLoopPlay()
     {
-        if(LoopPlayerIE != null)
+        if (LoopPlayerIE != null)
             StopCoroutine(LoopPlayerIE);
         isLoopPlay = false;
     }
     private IEnumerator VideoLoopPlayRoutine(float StartFrame, float EndFrame)
     {
-        WaitForSeconds TwoSec = new WaitForSeconds(1.0f);        
+        WaitForSeconds TwoSec = new WaitForSeconds(1.0f);
         isLoopPlay = true;
         while (!isPrepared)
         {
             yield return null;
         }
-        SetTime(StartFrame);        
-        player.Play();        
+        SetTime(StartFrame);
+        player.Play();
         while (isLoopPlay)
         {
-            if(player.time >= EndFrame)
-            {                
+            if (player.time >= EndFrame)
+            {
                 SetTime(StartFrame);
-                yield return TwoSec;                
+                yield return TwoSec;
             }
             else
-            {                
+            {
                 yield return null;
             }
         }
@@ -162,17 +163,17 @@ public class VideoController : MonoBehaviour {
     public void LoadVideoInfo()
     {
         videoInfoArray = Resources.LoadAll<VideoInfo>("ScriptableData/Video");
-        
+
     }
-    
+
     public void StopVideo()
-    {   
-        if(playerIE != null)
+    {
+        if (playerIE != null)
             StopCoroutine(playerIE);
     }
     IEnumerator StopRoutine()
     {
-        while(!isPrepared)
+        while (!isPrepared)
         {
             yield return null;
         }
@@ -190,6 +191,23 @@ public class VideoController : MonoBehaviour {
             yield return null;
         }
         player.time = time;
+    }
+
+    private bool CheckFileExists(string path)
+    {
+        FileInfo file = new FileInfo(path);
+
+        if (file.Exists)
+            return true;
+        else
+            return false;
+    }
+
+    private void CreateVideoFolder(string path)
+    {
+        Directory.CreateDirectory(path);
+
+        Debug.Log($"Video Folder 생성 : {path}");
     }
 
     public void SetVideoURL(string videoName)
@@ -238,7 +256,7 @@ public class VideoController : MonoBehaviour {
 
         /* ================================ App Store Upload Version ================================ */
 
-        string path = string.Format("{0}/ADHD_Video/{1}.mp4",
+        string path = string.Format("{0}/Video/{1}.mp4",
 
 #if UNITY_EDITOR
                                     Directory.GetParent(Application.dataPath),
@@ -248,15 +266,33 @@ public class VideoController : MonoBehaviour {
 
                                     videoName
                                     );
-        Debug.Log("path : " + path);
 
-        player.url = path;
-        player.Prepare();
+        if (CheckFileExists(path))
+        {
+            Debug.Log($"Video path : <color=cyan>{path}</color>");
+            player.url = path;
+            player.Prepare();
+        }
+        else
+        {
+            Debug.Log($"Video path Null : <color=red>{path}</color>");
+
+            string videoFolderPath = "";
+#if UNITY_EDITOR
+            videoFolderPath = Directory.GetParent(Application.dataPath) + "/Video/";
+#else
+            videoFolderPath = Application.persistentDataPath + "/Video/";
+
+#endif
+            if (!CheckFileExists(videoFolderPath))
+                CreateVideoFolder(videoFolderPath);
+        }
+
     }
     public void LoadComplete()
     {
         Debug.Log("5");
-        
+
         //player.clip = clip;
         //player.clip = clip;
         player.Prepare();
@@ -268,13 +304,13 @@ public class VideoController : MonoBehaviour {
     }
     IEnumerator PauseRoutine()
     {
-        while(!isPrepared)
+        while (!isPrepared)
         {
             yield return null;
         }
         player.Pause();
     }
-    
+
     public void SetFrame(long t)
     {
         player.frame = t;
@@ -283,5 +319,5 @@ public class VideoController : MonoBehaviour {
     {
         player.time = time;
     }
-    
+
 }
