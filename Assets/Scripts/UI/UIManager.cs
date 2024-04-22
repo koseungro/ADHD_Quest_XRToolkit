@@ -1036,7 +1036,6 @@ public class UIManager : Singleton<UIManager>
     private IEnumerator WaitSecondsRoutine(float time, UnityAction[] receiver)
     {
         yield return new WaitForSeconds(time);
-
         for (int i = 0; i < receiver.Length; i++)
         {
             receiver[i].Invoke();

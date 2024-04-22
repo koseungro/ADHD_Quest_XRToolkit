@@ -16,16 +16,16 @@ public class SceneStreet : SceneBase {
 
     protected override void EnterFunc()
     {
+        videoPlayer.SetFrame(10);
+        videoPlayer.Volume = 0;
+        videoPlayer.VideoPause();
+
         if (SceneLoader.Inst != null)
         {
             if (SceneLoader.Inst.IsLoadingTextActive())
                 SceneLoader.Inst.SetLoadingTextActive(false);
         }
         UIManager.Inst.FullFadeOut();
-
-        videoPlayer.SetFrame(10);
-        videoPlayer.Volume = 0;
-        videoPlayer.VideoPause();
 
         UIManager.Inst.LoadNarrationClip("Street");
         UIManager.Inst.WaitForNarrationAndFunc(UIManager.Inst.FindNarration("ad_03S_1"),

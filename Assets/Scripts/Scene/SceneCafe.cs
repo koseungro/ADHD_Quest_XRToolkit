@@ -16,13 +16,21 @@ public class SceneCafe : SceneBase {
     }
 
     protected override void EnterFunc()
-    {        
-        UIManager.Inst.FullFadeOut();
+    {
+        //Debug.Log($"<color=cyan> [EntrFunc] 시작</color>");
+
         //videoPlayer.LoadVideoInfo();
         //videoPlayer.SetVideoURL(videoPlayer.videoInfoArray[(int)VideoType.CAFEALONE1].GetVideoPath);        
         videoPlayer.SetFrame(10);
         videoPlayer.Volume = 0;
         videoPlayer.VideoPause();
+
+        if (SceneLoader.Inst != null)
+        {
+            if (SceneLoader.Inst.IsLoadingTextActive())
+                SceneLoader.Inst.SetLoadingTextActive(false);
+        }
+        UIManager.Inst.FullFadeOut(); // 씬 로드시 영상 로드되기 전에 스카이박스 보이는 현상으로 주석 처리 [2024.04.22 수정]
 
         UIManager.Inst.LoadNarrationClip("Cafe");
         UIManager.Inst.WaitForNarrationAndFunc(UIManager.Inst.FindNarration("ad_03C_1"),
@@ -118,18 +126,15 @@ public class SceneCafe : SceneBase {
         yield return SendCompleteSceneLoaded();
         yield return CheckSceneLoadedRoutine();
 
+        //Debug.Log($"<color=cyan> 비디오 로드 완료</color>");
+
         for (int i = 0; i < callback.Length; i++)
         {
             callback[i].Invoke();
         }
     }
     protected override void Start()
-    {
-        if (SceneLoader.Inst != null)
-        {
-            if (SceneLoader.Inst.IsLoadingTextActive())
-                SceneLoader.Inst.SetLoadingTextActive(false);
-        }
+    {        
         base.Start();
         //CheckPurchase();
         InitPosition = new Vector3[3];

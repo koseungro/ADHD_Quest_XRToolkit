@@ -102,7 +102,7 @@ public class SceneLoader : Singleton<SceneLoader>
                     async.allowSceneActivation = true;
                     if (LaserBeam != null)
                         LaserBeam.SetActive(true);
-                    Debug.Log($"<color=yellow> 씬 로드 : {async.allowSceneActivation}</color>");
+                    Debug.Log($"씬 로드 : <color=yellow>{async.allowSceneActivation}/ {SceneManager.GetActiveScene().name}</color>");
                 }
                 //slider.value += Time.deltaTime / speed;                
                 //percentText.text = string.Format("{0}%", (int)(slider.value * 100f));
@@ -128,11 +128,12 @@ public class SceneLoader : Singleton<SceneLoader>
 
         //canvasGroup.alpha = 0;
 
-        if (GameObject.Find("CurvedUILaserBeam") != null)
-        {
-            LaserBeam = GameObject.Find("CurvedUILaserBeam");
-            LaserBeam.SetActive(false);
-        }
+        // 2024.04.22 주석 처리
+        //if (GameObject.Find("CurvedUILaserBeam") != null) 
+        //{
+        //    LaserBeam = GameObject.Find("CurvedUILaserBeam");
+        //    LaserBeam.SetActive(false);
+        //}
 
         async = SceneManager.LoadSceneAsync("SceneMain");
         async.allowSceneActivation = false;
