@@ -64,7 +64,7 @@ public class SceneCafe : SceneBase {
         // 7초 뒤 랜덤 도형이 나와서 움직임.
         //UIManager.Inst.WaitSeconds(7.3f, delegate { focusGame.ShowFigure(); });
 
-        UIManager.Inst.WaitSeconds(14.7f, delegate { UIManager.Inst.ShowNarrationText("However, take a close look at the location and color of this point.\n"+
+        UIManager.Inst.WaitSeconds(16.5f, delegate { UIManager.Inst.ShowNarrationText("However, take a close look at the location and color of this point.\n"+
 "You have to press the button on the trigger button when the same shape as before appears the second time."); });
         
         UIManager.Inst.WaitSeconds(8.0f, 

@@ -40,8 +40,8 @@ public class SceneLibrary : SceneBase {
         {
             DataManager.Inst.CurrentLevelType = LevelType.LIBRARY_LEVEL0;
             UIManager.Inst.WaitForNarrationAndFunc(UIManager.Inst.FindNarration("ad_03L_1"),
-                "You chose to train in the library!\n"+
-"<color=#35AC88>Here, you can read books, study, and do assignments.It is like a second home for students.\n" +
+                "You've chosen to train in the library!\n" +
+"<color=#35AC88>Here, you can read books, study, and do assignments. It is like a second home for students.\n" +
 "Shall we take advantage of this atmosphere and do N - back training for 2 minutes?</color>\n" +
  "Not sure what N - back training is?\n"+
  "Click the practice button below to hear a detailed explanation of the training.", 
@@ -186,7 +186,7 @@ public class SceneLibrary : SceneBase {
         // 7초 뒤 랜덤 도형이 나와서 움직임.
         //UIManager.Inst.WaitSeconds(7.3f, delegate { focusGame.ShowFigure(); });
 
-        UIManager.Inst.WaitSeconds(14.7f, delegate { UIManager.Inst.ShowNarrationText("However, look closely at the shape as shown now.\nYou must press the trigger button the second time it is the same as the shape that appeared before."); });
+        UIManager.Inst.WaitSeconds(10.5f, delegate { UIManager.Inst.ShowNarrationText("However, look closely at the shape as shown now.\nYou must press the trigger button the second time it is the same as the shape that appeared before."); });
         // 정답 도형 보여줌
         //UIManager.Inst.WaitSeconds(11.7f, delegate { focusGame.StopFigure(); },
         //                                  delegate {

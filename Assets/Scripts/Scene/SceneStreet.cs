@@ -60,14 +60,14 @@ public class SceneStreet : SceneBase {
         UIManager.Inst.PlayNarration(UIManager.Inst.FindNarration("ad_03S_2"));
         //delegate { PracticNextNarration(); });
 
-        UIManager.Inst.ShowNarrationText("You are wondering what N-back training is!\n"+
+        UIManager.Inst.ShowNarrationText("You may have been wondering what N-back training is!\n"+
 "The positions and colors of the colored points inside the square divided into 16 parts will appear on the screen.\n"+
 "There are no rules as to the order in which they appear.", 0, 138f, 0);
 
         // 7초 뒤 랜덤 도형이 나와서 움직임.
         //UIManager.Inst.WaitSeconds(7.3f, delegate { focusGame.ShowFigure(); });
         
-        UIManager.Inst.WaitSeconds(14.7f, delegate { UIManager.Inst.ShowNarrationText("However, take a close look at where the points appear as shown now.\nWhen you reach the same location as before the second time, you need to press the trigger button."); });
+        UIManager.Inst.WaitSeconds(15.5f, delegate { UIManager.Inst.ShowNarrationText("However, take a close look at where the points appear as shown now.\nWhen you reach the same location as before the second time, you need to press the trigger button."); });
         UIManager.Inst.WaitSeconds(10.0f, 
             delegate {
                 focusGame.StartPracticeFocusGame(delegate {

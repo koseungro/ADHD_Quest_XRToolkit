@@ -990,6 +990,8 @@ public class SceneBase : MonoBehaviour
     {
         Debug.Log("<color=yellow> 2024.04.16 주석 처리</color>");
 
+        Application.Quit();
+
         //if (ConnectedClient != null)
         //{
         //    if (ConnectedClient.isServer)
