@@ -14,6 +14,45 @@ public class SceneStreet : SceneBase {
         //youtubePlayer = GameObject.Find("VR3D_BG/Shpere/VR3D_Player_Pre").GetComponent<VideoPlayer_KKC>();
     }
 
+    private IEnumerator enterRoutine;
+
+    private void StartEnterRoutine()
+    {
+        if (enterRoutine != null)
+            StopCoroutine(enterRoutine);
+
+        enterRoutine = EnterFuncRoutine();
+        StartCoroutine(enterRoutine);
+    }
+
+    private IEnumerator EnterFuncRoutine()
+    {
+        videoPlayer.SetFrame(10);
+        videoPlayer.Volume = 0;
+        videoPlayer.VideoPause();
+
+        yield return new WaitForSeconds(1f);
+
+        if (SceneLoader.Inst != null)
+        {
+            if (SceneLoader.Inst.IsLoadingTextActive())
+                SceneLoader.Inst.SetLoadingTextActive(false);
+        }
+        UIManager.Inst.FullFadeOut();
+
+        UIManager.Inst.LoadNarrationClip("Street");
+        UIManager.Inst.WaitForNarrationAndFunc(UIManager.Inst.FindNarration("ad_03S_1"),
+            "You chose to train on the streets!\n" +
+"<color=#35AC88>It's not easy to concentrate when people are coming and going.\n" +
+"If you can maintain concentration even in this environment, there will be no problem anytime, anywhere.\n" +
+"Now then, shall we calm down and do N - back training for 2 minutes?\n</color>" +
+  "Not sure what N - back training is?\n" +
+  "Click the practice button below to hear a detailed explanation of the training.",
+
+            true,
+            delegate { ShowStartButton(); });
+    }
+
     protected override void EnterFunc()
     {
         videoPlayer.SetFrame(10);
@@ -133,7 +172,8 @@ public class SceneStreet : SceneBase {
     protected override void Start () {        
         base.Start();
         //CheckPurchase();
-        IsAssetLoad(EnterFunc);
+
+        IsAssetLoad(StartEnterRoutine);
 
     }
 	
