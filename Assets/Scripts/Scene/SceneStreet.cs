@@ -191,10 +191,9 @@ public class SceneStreet : SceneBase {
         Func<bool> func = videoPlayer.isPreparedFunc;
         //Func<bool> func = youtubePlayer.isPreparedFunc;
         UIManager.Inst.FullFadeIn(
-            delegate { UIManager.Inst.CompleteAndCallback(func, delegate { UIManager.Inst.FullFadeOut(); },
+            delegate { UIManager.Inst.CompleteAndCallback(func, delegate { videoPlayer.VideoLoopPlay(95.15f, 100.15f); },
+                                                                delegate { UIManager.Inst.FullFadeOut(); },
                                                                 delegate { UIManager.Inst.HalfFadeOut(); },
-                                                                delegate { videoPlayer.VideoLoopPlay(95.15f, 100.15f); },
-                                                                //delegate { youtubePlayer.VideoLoopPlay(95.15f, 100.15f); },
                                                                 delegate { focusGame.SetActive(true); },
                                                                 delegate { focusGame.ShowJoyStick(); },
                                                                 delegate { focusGame.SetJoyStickPosition(0, 190, 0); },
@@ -228,10 +227,9 @@ public class SceneStreet : SceneBase {
         //Func<bool> func = youtubePlayer.isPreparedFunc;
         UIManager.Inst.FullFadeIn(
             delegate {
-                UIManager.Inst.CompleteAndCallback(func, delegate { UIManager.Inst.FullFadeOut(); },
+                UIManager.Inst.CompleteAndCallback(func, delegate { videoPlayer.VideoLoopPlay(784.27f, 789.27f); },
                                                          delegate { UIManager.Inst.HalfFadeOut(); },
-                                                         delegate { videoPlayer.VideoLoopPlay(784.27f, 789.27f); },
-                                                         //delegate { youtubePlayer.VideoLoopPlay(784.27f, 789.27f); },
+                                                         delegate { UIManager.Inst.FullFadeOut(); },                                                         
                                                          delegate { focusGame.SetActive(true); },
                                                          delegate { focusGame.ShowJoyStick(); },
                                                          delegate { focusGame.SetJoyStickPosition(0, 190, 0); },
@@ -264,10 +262,9 @@ public class SceneStreet : SceneBase {
         UIManager.Inst.FullFadeIn(
             delegate
             {
-                UIManager.Inst.CompleteAndCallback(func, delegate { UIManager.Inst.FullFadeOut(); },
-                                                         delegate { UIManager.Inst.HalfFadeOut(); },
-                                                         delegate { videoPlayer.VideoLoopPlay(38.16f, 43.16f); },
-                                                         //delegate { youtubePlayer.VideoLoopPlay(38.16f, 43.16f); },
+                UIManager.Inst.CompleteAndCallback(func, delegate { videoPlayer.VideoLoopPlay(38.16f, 43.16f); },
+                                                         delegate { UIManager.Inst.FullFadeOut(); },
+                                                         delegate { UIManager.Inst.HalfFadeOut(); },                                                         
                                                          delegate { focusGame.SetActive(true); },
                                                          delegate { focusGame.ShowJoyStick(); },
                                                          delegate { focusGame.SetJoyStickPosition(0, 190, 0); },

@@ -9,7 +9,6 @@ using CurvedUI;
 
 public class UIManager : Singleton<UIManager>
 {
-
     /// <summary>
     /// 이전 UI CanvasGroup
     /// </summary>
@@ -64,6 +63,8 @@ public class UIManager : Singleton<UIManager>
     /// 지시 캔버스
     /// </summary>
     private RotateCompass RotateCompass;
+
+    public VideoController videoController;
 
     protected override void Awake()
     {
@@ -352,7 +353,6 @@ public class UIManager : Singleton<UIManager>
     /// <param name="receiver">FadeIn이 끝난 후 실행 할 CallBack함수</param>
     public void FullFadeOut(params UnityAction[] receiver)
     {
-
         StartCoroutine(HalfOrFullFadeOutRoutine(FullFade, receiver));
     }
 
@@ -992,9 +992,12 @@ public class UIManager : Singleton<UIManager>
         if (target == null) yield break;
         target.gameObject.SetActive(true);
 
+        if (videoController.player.isPlaying)
+            yield return new WaitForSeconds(1f); // Fade 시작 전 1초 대기
+
         while (target.alpha > 0)
         {
-            target.alpha -= Time.deltaTime / 0.5f;
+            target.alpha -= Time.deltaTime / 1f;
             yield return null;
         }
 

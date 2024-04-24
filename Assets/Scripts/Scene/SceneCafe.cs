@@ -44,7 +44,7 @@ public class SceneCafe : SceneBase
             if (SceneLoader.Inst.IsLoadingTextActive())
                 SceneLoader.Inst.SetLoadingTextActive(false);
         }
-        UIManager.Inst.FullFadeOut(); // 씬 로드시 영상 로드되기 전에 스카이박스 보이는 현상으로 주석 처리 [2024.04.22 수정]
+        UIManager.Inst.FullFadeOut();
 
         UIManager.Inst.LoadNarrationClip("Cafe");
         UIManager.Inst.WaitForNarrationAndFunc(UIManager.Inst.FindNarration("ad_03C_1"),
@@ -233,9 +233,9 @@ public class SceneCafe : SceneBase
         UIManager.Inst.FullFadeIn(
             delegate
             {
-                UIManager.Inst.CompleteAndCallback(func, delegate { UIManager.Inst.FullFadeOut(); },
+                UIManager.Inst.CompleteAndCallback(func, delegate { videoPlayer.VideoLoopPlay(66.22f, 71.22f); },
+                                                         delegate { UIManager.Inst.FullFadeOut(); },
                                                          delegate { UIManager.Inst.HalfFadeOut(); },
-                                                         delegate { videoPlayer.VideoLoopPlay(66.22f, 71.22f); },
                                                          delegate { focusGame.SetActive(true); },
                                                          delegate { focusGame.ShowJoyStick(); },
                                                          delegate { focusGame.SetJoyStickPosition(0, 140, 0); },
@@ -275,9 +275,9 @@ public class SceneCafe : SceneBase
         UIManager.Inst.FullFadeIn(
             delegate
             {
-                UIManager.Inst.CompleteAndCallback(func, delegate { UIManager.Inst.FullFadeOut(); },
+                UIManager.Inst.CompleteAndCallback(func, delegate { videoPlayer.VideoLoopPlay(690.08f, 695.08f); },
+                                                         delegate { UIManager.Inst.FullFadeOut(); },
                                                          delegate { UIManager.Inst.HalfFadeOut(); },
-                                                         delegate { videoPlayer.VideoLoopPlay(690.08f, 695.08f); },
                                                          delegate { focusGame.SetActive(true); },
                                                          delegate { focusGame.ShowJoyStick(); },
                                                          delegate { focusGame.SetJoyStickPosition(0, 140, 0); },
@@ -316,9 +316,9 @@ public class SceneCafe : SceneBase
         UIManager.Inst.FullFadeIn(
             delegate
             {
-                UIManager.Inst.CompleteAndCallback(func, delegate { UIManager.Inst.FullFadeOut(); },
+                UIManager.Inst.CompleteAndCallback(func, delegate { videoPlayer.VideoLoopPlay(62.14f, 67.14f); },                                               
+                                                         delegate { UIManager.Inst.FullFadeOut(); },
                                                          delegate { UIManager.Inst.HalfFadeOut(); },
-                                                         delegate { videoPlayer.VideoLoopPlay(62.14f, 67.14f); },
                                                          delegate { focusGame.SetActive(true); },
                                                          delegate { focusGame.ShowJoyStick(); },
                                                          delegate { focusGame.SetJoyStickPosition(0, 140, 0); },
