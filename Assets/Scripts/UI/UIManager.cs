@@ -992,7 +992,7 @@ public class UIManager : Singleton<UIManager>
         if (target == null) yield break;
         target.gameObject.SetActive(true);
 
-        if (videoController.player.isPlaying)
+        if (videoController != null && videoController.player.isPlaying)
             yield return new WaitForSeconds(1f); // Fade 시작 전 1초 대기
 
         while (target.alpha > 0)

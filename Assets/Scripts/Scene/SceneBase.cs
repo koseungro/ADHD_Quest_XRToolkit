@@ -761,7 +761,7 @@ public class SceneBase : MonoBehaviour
         CommitButton.dummyInteractable = true;
         CommitButton.Interactable = true;
 
-        Debug.Log("<color=yellow> 2024.04.16 주석 처리</color>");
+        //Debug.Log("<color=yellow> 2024.04.16 주석 처리</color>");
 
         //if (ConnectedClient != null)
         //{
