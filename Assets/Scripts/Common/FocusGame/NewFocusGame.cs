@@ -41,12 +41,12 @@ public class NewFocusGame : MonoBehaviour
     /// 총 타겟 개수
     /// </summary>
     //private int totalCount = 300;
-    private int totalCount = 300;
+    private int totalCount = 150;
 
     /// <summary>
     /// 타겟 만드는 개수
     /// </summary>
-    public int TargetCount = 100;
+    public int TargetCount = 50;
     //public const int kTargetMaxIndex = 16;
     /// <summary>
     /// 각 인덱스의 최대 개수
@@ -556,13 +556,13 @@ public class NewFocusGame : MonoBehaviour
     /// </summary>
     private void ChangeFigure()
     {
-        Debug.Log("<color=yellow> ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ</color>");
+        //Debug.Log("<color=yellow> ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ</color>");
 
-        Debug.Log("LevelFigureList Count : " + LevelFigureList.Count);
-        Debug.Log("LevelIndex : " + LevelIndex);
+        //Debug.Log("LevelFigureList Count : " + LevelFigureList.Count);
+        //Debug.Log("LevelIndex : " + LevelIndex);
 
-        Debug.Log("indexList Count : " + indexList.Count);
-        Debug.Log("FigureIndex : " + FigureIndex);
+        //Debug.Log("indexList Count : " + indexList.Count);
+        //Debug.Log("FigureIndex : " + FigureIndex);
         Sprite copyImage = LevelFigureList[LevelIndex][indexList[FigureIndex]];
         if (isPractice)
         {
@@ -847,7 +847,7 @@ public class NewFocusGame : MonoBehaviour
         {
             if (FigureIndex == indexList.Count - 1)
             {
-                Debug.Log("<color=magenta> 연습 게임 종료 </color>");
+                Debug.Log("<color=magenta> 연습 게임 종료? </color>");
                 //EndPracticeGame();
                 FigureIndex = 0;
             }
@@ -862,7 +862,10 @@ public class NewFocusGame : MonoBehaviour
         {
             Debug.Log($"<color=yellow>{FigureIndex}/ {indexList.Count - 1}</color>");
             if (FigureIndex == indexList.Count - 1)
+            {
                 EndGame();
+                FigureIndex = 0;
+            }
             else
                 mFocusState = FocusGameProgressState.INIT_TIME;
 
