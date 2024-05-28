@@ -31,7 +31,7 @@ public class NewFocusGame : MonoBehaviour
     /// <summary>
     /// 연속되는걸 허용할 건지 아닐지
     /// </summary>
-    private bool isAcceptContinuousTarget = false;
+    private bool isAcceptContinuousTarget = true;
 
     /// <summary>
     /// 생성된 정답 표제어 목록 수
@@ -41,12 +41,12 @@ public class NewFocusGame : MonoBehaviour
     /// 총 타겟 개수
     /// </summary>
     //private int totalCount = 300;
-    private int totalCount = 40;
+    private int totalCount = 300;
 
     /// <summary>
     /// 타겟 만드는 개수
     /// </summary>
-    public int TargetCount = 10;
+    public int TargetCount = 100;
     //public const int kTargetMaxIndex = 16;
     /// <summary>
     /// 각 인덱스의 최대 개수
@@ -866,10 +866,10 @@ public class NewFocusGame : MonoBehaviour
             else
                 mFocusState = FocusGameProgressState.INIT_TIME;
 
-            if (FigureIndex < indexList.Count - 1) // 2024.03.27 Index 오류로 수정
+            if (FigureIndex < indexList.Count)
                 FigureIndex++;
             else
-                FigureIndex = 0;
+                FigureIndex = indexList.Count - 1;
         }
 
     }
@@ -995,6 +995,7 @@ public class NewFocusGame : MonoBehaviour
                                     {
                                         isAcceptContinuousTarget = false;
                                         NBackGenerator.isAcceptContinuousTarget = false;
+
                                     }
                                     break;
                                     //case "NBackRange":
@@ -1020,8 +1021,8 @@ public class NewFocusGame : MonoBehaviour
     /// </summary>
     private void SetDefaultValue()
     {
-        totalCount = 40;
-        TargetCount = 10;
+        totalCount = 300;
+        TargetCount = 100;
         NbackRange = 2;
         isAcceptContinuousTarget = true;
         NBackGenerator.isAcceptContinuousTarget = true;
@@ -1126,6 +1127,10 @@ public class NewFocusGame : MonoBehaviour
 
         List<int> list = NBackGenerator.Generate(totalCount, TargetCount, NbackRange, out generatedRightAnswer);
 
+        while (generatedRightAnswer != TargetCount) // 만약을 위해 원하는 정답 수가 나올때 까지 반복
+        {
+            list = NBackGenerator.Generate(totalCount, TargetCount, NbackRange, out generatedRightAnswer);
+        }
         //int forTestCnt = 4;
         //if (generatedRightAnswer != TargetCount)
         //{
@@ -1205,7 +1210,7 @@ public class NewFocusGame : MonoBehaviour
 
         //targetCount = TargetCount;
 
-        CreateRandomIndexis(); // 무한루프
+        CreateRandomIndexis();
         PracticeAlertArrowImage.gameObject.SetActive(false);
     }
 
@@ -1567,7 +1572,7 @@ static class NBackGenerator
     /// <summary>
     /// 연속성을 허용 체크
     /// </summary>
-    public static bool isAcceptContinuousTarget = false;
+    public static bool isAcceptContinuousTarget = true;
 
     /// <summary>
     /// NBack 목록 생성

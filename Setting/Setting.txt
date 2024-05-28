@@ -1,2 +1,2 @@
 TargetCount=100
-AcceptContinuousTarget=true
+AcceptContinuousTarget=false

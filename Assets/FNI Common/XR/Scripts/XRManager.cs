@@ -1015,8 +1015,8 @@ namespace FNI.XR
                 {
                     rightTriggerPressed = false;
 
-                    if (newFocusGame != null)
-                        newFocusGame.TriggerPressed = false;
+                    //if (newFocusGame != null)
+                        //newFocusGame.TriggerPressed = false;
                 }
 
 
